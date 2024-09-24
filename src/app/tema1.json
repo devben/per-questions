@@ -1,0 +1,871 @@
+[
+    {
+        "year": "2020",
+        "sections": [
+            {
+                "section": "1ª A",
+                "questions": [
+                    {
+                        "question": "En relación a los Baos:",
+                        "options": [
+                            "Son piezas dispuestas perpendicularmente a la línea de crujía",
+                            "Sobre ellos se montan las cubiertas",
+                            "Están afirmados a las cuadernas",
+                            "Todas las respuestas anteriores son correctas"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "Si miramos de popa hacia proa, una hélice de giro levógira es:",
+                        "options": [
+                            "Aquella que en máquina avante gira en el sentido de las agujas del reloj",
+                            "Aquella que en máquina atrás gira en sentido contrario a las agujas del reloj",
+                            "Aquella que en máquina atrás gira en el sentido de las agujas del reloj",
+                            "Las respuestas a) y b) son correctas"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "Filar la cadena del ancla es la maniobra de:",
+                        "options": [
+                            "Virar progresivamente la cadena del ancla",
+                            "Arriar progresivamente la cadena del ancla",
+                            "Levar la cadena del ancla",
+                            "Hacer zarpar la cadena del ancla"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "Banda de Sotavento es:",
+                        "options": [
+                            "La banda por donde entra el viento",
+                            "La banda contraria a la de barlovento",
+                            "La banda por donde sale el viento",
+                            "Las respuestas b) y c) son correctas"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                        
+                    }
+                ]
+            },
+            {
+                "section": "3ª A",
+                "questions": [
+                    {
+                        "question": "Los orificios, practicados en el forro exterior a la altura del trancanil, con el fin de dar salida al agua de cubierta se llaman:",
+                        "options": [
+                            "Candeleros",
+                            "Aliviaderos",
+                            "Lumbreras",
+                            "Imbornales"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "¿Cómo se llama el ancla de la imagen?",
+                        "image": "/images/de-arado.png",
+                        "options": [
+                            "Danforth",
+                            "Rezón",
+                            "Almirantazgo",
+                            "De arado"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "El orificio por el que la mecha del timón atraviesa el casco se llama:",
+                        "options": [
+                            "Prensa estopa",
+                            "Guardines",
+                            "Limera",
+                            "Bocina"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "Las válvulas que se encuentran por debajo de la línea de flotación y que toman agua de mar para los diferentes servicios del barco son:",
+                        "options": [
+                            "Aspiraciones de las bombas de achique",
+                            "Los grifos de fondo",
+                            "Válvulas de sentina",
+                            "Ninguna de las respuestas anteriores es correcta"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2019",
+        "sections": [
+            {
+                "section": "1ª A",
+                "questions": [
+                    {
+                        "question": "Si tenemos una vía de agua, ¿con cuál de los siguientes medios podremos sacar el agua que entre a bordo?",
+                        "options": [
+                            "Con la bomba de achique",
+                            "Con los grifos de fondo",
+                            "Con las lumbreras",
+                            "A través de los manguerotes"
+                        ],
+                        "answerLetter":"A",
+                        "answer":0
+                    },
+                    {
+                        "question": "La parte del casco que está por debajo de la línea de flotación se denomina:",
+                        "options": [
+                            "Línea de crujía",
+                            "Obra viva",
+                            "Francobordo",
+                            "Obra muerta"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "Cuando sacamos el ancla de su estiba y la dejamos colgando lista para fondear, se dice que el ancla:",
+                        "options": [
+                            "Llama a pique",
+                            "Está virada",
+                            "Está a la pendura",
+                            "Ha zarpado"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "La diferencia entre los calados de popa y proa se denomina:",
+                        "options": [
+                            "Alteración",
+                            "Asentamiento",
+                            "Arrufo",
+                            "Asiento"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    }
+                ]
+            },
+            {
+                "section": "2ª A",
+                "questions": [
+                    {
+                        "question": "En la figura de la hélice, ¿cómo se llama la parte señalada?",
+                        "options": [
+                            "Núcleo",
+                            "Eje",
+                            "Pala",
+                            "Capacete"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "Los manguerotes sirven para:",
+                        "options": [
+                            "Agarrarnos y no caer por la borda o una escalera",
+                            "Ventilar un espacio del buque",
+                            "Iluminar con luz natural un espacio del buque",
+                            "Permitir la salida del agua que ha embarcado en cubierta"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "La maniobra de virar progresivamente la cadena del ancla para subirla a la embarcación se denomina:",
+                        "options": [
+                            "Zarpar el ancla",
+                            "Poner el ancla a la pendura",
+                            "Levar el ancla",
+                            "Filar el ancla"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "El orificio por el que el eje del timón atraviesa el casco se denomina:",
+                        "options": [
+                            "Guardines",
+                            "Limera",
+                            "Mecha",
+                            "Pala"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    }
+                ]
+            },
+            {
+                "section": "3ª A",
+                "questions": [
+                    {
+                        "question": "En la figura del timón, ¿cómo se llama la parte señalada?",
+                        "options": [
+                            "Guardín",
+                            "Limera",
+                            "Mecha",
+                            "Caña"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "El ancla de cuatro brazos terminados en uña se denomina:",
+                        "options": [
+                            "Ancla de Rezón",
+                            "Ancla Danforth",
+                            "Ancla de Cepo",
+                            "Ancla de Arado"
+                        ],
+                        "answerLetter":"A",
+                        "answer":0
+                    },
+                    {
+                        "question": "La bocina es:",
+                        "options": [
+                            "El núcleo de la hélice",
+                            "La pieza donde están acopladas las palas de la hélice",
+                            "La sirena del barco",
+                            "El orificio del casco por donde sale el eje de la hélice"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "Las zonas del costado donde la manga va disminuyendo para cerrar y formar la popa del barco, se denominan:",
+                        "options": [
+                            "Aletas",
+                            "Líneas de crujía",
+                            "Amuras",
+                            "Través"
+                        ],
+                        "answerLetter":"A",
+                        "answer":0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2018",
+        "sections": [
+            {
+                "section": "1ª A",
+                "questions": [
+                    {
+                        "question": "Cuando el ancla está fuera de su lugar de estiba, colgada y dispuesta para fondear se dice que:",
+                        "options": [
+                            "Está a Pique",
+                            "Está a la pendura",
+                            "Está clara, libre y arriba",
+                            "Ha zarpado"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "El embrague del Molinete se utiliza para que:",
+                        "options": [
+                            "El freno pueda actuar",
+                            "El barboten pueda girar, levando o filando el ancla",
+                            "El embrague no tiene nada que ver con el ancla, se utiliza solo para los cabos",
+                            "El embrague no es una pieza del molinete, es una pieza del motor"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "Las piezas transversales afirmadas a las cuadernas y que sobre ellas se montan las cubiertas se llaman:",
+                        "options": [
+                            "Bordas",
+                            "Mamparos",
+                            "Regalas",
+                            "Baos"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "A la distancia medida en el costado del buque y en el centro, comprendida entre la superficie de flotación hasta la cubierta completa más alta con medios permanentes de cierre se denomina:",
+                        "options": [
+                            "Francobordo",
+                            "Obra muerta",
+                            "Calado",
+                            "Puntal"
+                        ],
+                        "answerLetter":"A",
+                        "answer":0
+                    }
+                ]
+            },
+            {
+                "section": "2ª A",
+                "questions": [
+                    {
+                        "question": "A las piezas generalmente metálicas o de madera, dispuestas verticalmente que dan soporte a los pasamanos se les llaman:",
+                        "options": [
+                            "Guardamancebos",
+                            "Barandillas",
+                            "Candeleros",
+                            "Ninguna de las respuestas anteriores es correcta"
+                        ],
+                        "answerLetter":"C",
+                        "answer":3
+                    },
+                    {
+                        "question": "A la mayor distancia transversal del barco medida por fuera del forro (incluido el espesor de la chapa de ambos costados) se le denomina:",
+                        "options": [
+                            "Manga",
+                            "Manga máxima",
+                            "Manga con el forro",
+                            "Anchura"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "Si en un buque de dos hélices, mirando hacia proa, la hélice de babor es levogira y la de estribor dextrógira, las hélices son:",
+                        "options": [
+                            "De giro abatible",
+                            "Si la de estribor es a la derecha o dextrógira se considera que es como una hélice de giro dextrógira",
+                            "Si la de babor es a la izquierda o levógira se considera que es como una hélice de giro levógira",
+                            "De giro al exterior"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "El bloque o pieza sobre el que se montan las palas de una hélice se llama:",
+                        "options": [
+                            "Capacete",
+                            "Núcleo",
+                            "Bocina",
+                            "Eje"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    }
+                ]
+            },
+            {
+                "section": "3ª A",
+                "questions": [
+                    {
+                        "question": "El embrague del molinete sirve para:",
+                        "options": [
+                            "Para que el barboten pueda girar, pero es necesario que esté frenado",
+                            "Para que el barboten pueda girar, una vez quitado el freno",
+                            "Para poder quitar el freno",
+                            "No tiene función alguna, solo sirve para poder virar los cabos, con el molinete embragado"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "Si estamos fondeados y la cadena o la línea de fondeo está perpendicular a la línea de flotación, (es decir llamando verticalmente) se dice que está:",
+                        "options": [
+                            "A la pendura",
+                            "Filada completamente",
+                            "Clara y libre",
+                            "A pique"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "Las piezas transversales con cierta curvatura, sobre las que se montan las cubiertas se denominan:",
+                        "options": [
+                            "Bordas",
+                            "Baos",
+                            "Cuadernas",
+                            "Plan"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "La limera es:",
+                        "options": [
+                            "El eje vertical por el cual gira el timón",
+                            "La parte plana del timón, también llamada pala",
+                            "El orificio practicado en la bovedilla, sobre el codaste, por donde pasa la mecha",
+                            "El orificio practicado en la bovedilla, sobre el codaste, por donde pasan los guardines"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    }
+                ]
+            },
+            {
+                "section": "4ª A",
+                "questions": [
+                    {
+                        "question": "Al dar atrás, el giro de una hélice levógira es:",
+                        "options": [
+                            "En sentido de las agujas del reloj, mirando desde proa hacia popa",
+                            "En sentido de las agujas del reloj, mirando desde popa hacia proa",
+                            "En sentido contrario a las agujas del reloj, mirando desde popa hacia proa",
+                            "Las respuestas a) y c) son correctas"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "Cuando estamos levantando el fondeo y el ancla está fuera del agua sin obstáculos se dice que:",
+                        "options": [
+                            "Está a la pendura",
+                            "Ha zarpado",
+                            "Está clara y libre",
+                            "Está a pique"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "La banda opuesta a aquella por la que recibimos el viento se denomina:",
+                        "options": [
+                            "Banda de Barlovento",
+                            "Banda de Adrizamiento",
+                            "Banda de Sotavento",
+                            "Ganando Barlovento"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "Si estamos inclinados a la banda de Estribor se dice que:",
+                        "options": [
+                            "Estamos poniendo el barco en calados iguales",
+                            "Estamos apopados a Estribor",
+                            "Estamos adrizando el barco a Estribor",
+                            "Estamos escorados a Estribor"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2017",
+        "sections": [
+            {
+                "section": "1ª A",
+                "questions": [
+                    {
+                        "question": "La diferencia entre el calado de proa y el calado de popa se denomina:",
+                        "options": [
+                            "Calado medio",
+                            "Alteración",
+                            "Calado apopante",
+                            "Asiento"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "El giro de una hélice dextrógira con máquinas atrás es:",
+                        "options": [
+                            "En sentido contrario a las agujas del reloj, mirando desde proa hacia popa",
+                            "En sentido de las agujas del reloj, mirando desde popa hacia proa",
+                            "En sentido contrario a las agujas del reloj, mirando desde popa hacia proa",
+                            "Las respuestas a) y b) son correctas"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "Cuando el ancla despega del fondo se dice que:",
+                        "options": [
+                            "Está a la pendura",
+                            "Está libre",
+                            "Está a pique",
+                            "Ha zarpado"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "Al costado contrario por donde se recibe el viento se denomina:",
+                        "options": [
+                            "Barlovento",
+                            "Estribor",
+                            "Sotavento",
+                            "Babor"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    }
+                ]
+            },
+            {
+                "section": "2ª A",
+                "questions": [
+                    {
+                        "question": "La parte del casco que está por debajo de la línea de flotación se denomina:",
+                        "options": [
+                            "Obra viva",
+                            "Costado",
+                            "Plan",
+                            "Obra muerta"
+                        ],
+                        "answerLetter":"A",
+                        "answer":0
+                    },
+                    {
+                        "question": "La hélice que, en marcha avante y vista desde popa, gira en sentido contrario a las agujas del reloj se denomina:",
+                        "options": [
+                            "Hélice de paso variable",
+                            "Hélice plegable",
+                            "Hélice levógira",
+                            "Hélice dextrógira"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "Los cabos o cables que van de proa a popa a lo largo de los costados y a cierta altura, que sirven para poder agarrarnos y evitar que nos caigamos de la embarcación se denominan:",
+                        "options": [
+                            "Candeleros",
+                            "Guardamancebos",
+                            "Pasamanos",
+                            "Manguerotes"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "La maniobra de virar la cadena del ancla progresivamente hasta la embarcación, se denomina:",
+                        "options": [
+                            "Ponerla a pique",
+                            "Aclarar el ancla",
+                            "Filar el ancla",
+                            "Levar el ancla"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    }
+                ]
+            },
+            {
+                "section": "3ª A",
+                "questions": [
+                    {
+                        "question": "Se denomina obra muerta en un buque a:",
+                        "options": [
+                            "Aquella sección del casco situada por debajo del plano de flotación",
+                            "Aquella sección del casco que define el plano de flotación",
+                            "Aquella sección de la embarcación definida entre las perpendiculares de proa y popa",
+                            "Aquella sección del casco situada por encima del plano de flotación"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "La pieza recta y vertical en que termina el buque por su parte de popa se denomina:",
+                        "options": [
+                            "Roda",
+                            "Codaste",
+                            "Bao",
+                            "Regala"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "La diferencia entre el calado a popa de un buque y su calado a proa, para una flotación determinada se denomina:",
+                        "options": [
+                            "Asiento",
+                            "Alteración",
+                            "Calado medio",
+                            "Francobordo"
+                        ],
+                        "answerLetter":"A",
+                        "answer":0
+                    },
+                    {
+                        "question": "¿Cómo se denominan los orificios que permiten la evacuación de agua desde cubierta?",
+                        "options": [
+                            "Barbotenes",
+                            "Manguerotes",
+                            "Lumbreras",
+                            "Imbornales"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2016",
+        "sections": [
+            {
+                "section": "1ª A",
+                "questions": [
+                    {
+                        "question": "Navegando al rumbo Norte con viento del Oeste, la banda de sotavento es:",
+                        "options": ["Babor", "La popa", "Estribor", "La proa"],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Cuando la embarcación está inclinada de costado, se dice que está:",
+                        "options": ["Aproada", "Escorada", "Adrizada", "Apopada"],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "El calado medio es:",
+                        "options": [
+                            "La diferencia entre el calado de proa y el calado de popa",
+                            "El calado en el medio o centro de la embarcación",
+                            "La semisuma de los calados de proa y popa",
+                            "Ninguna de las respuestas es correcta"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "En hélices gemelas de giro al exterior:",
+                        "options": [
+                            "La de estribor es levógira y la de babor dextrógira",
+                            "La de estribor y babor son dextrógiras",
+                            "La de estribor es dextrógira y la de babor levógira",
+                            "La de estribor y babor son levógiras"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    }
+                ]
+            },
+            {
+                "section": "2ª A",
+                "questions": [
+                    {
+                        "question": "Los orificios que permiten la salida de agua de la cubierta se denominan:",
+                        "options": ["Lumbreras", "Escotillas", "Imbornales", "Portillos"],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Si quisiéramos ventilar un espacio del buque utilizaríamos:",
+                        "options": ["Los candeleros", "Las bañeras", "Los barbotenes", "Los manguerotes"],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "El elemento que, conectado a la rueda, invierte el sentido de giro de la pala del timón se denomina:",
+                        "options": ["Guardines o guarnes", "Servomotor", "Limera", "Mecha"],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "El lado o costado opuesto de donde viene el viento se denomina:",
+                        "options": ["Barlovento", "Escora", "Sotavento", "Adrizamiento"],
+                        "answerLetter": "C",
+                        "answer": 2
+                    }
+                ]
+            },
+            {
+                "section": "3ª A",
+                "questions": [
+                    {
+                        "question": "La semisuma de los calados de proa y popa se denomina:",
+                        "options": ["Asiento", "Calado medio", "Calado aproante", "Alteración"],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "El giro de una hélice levógira en marcha avante es:",
+                        "options": [
+                            "En sentido contrario a las agujas del reloj, mirando desde proa hacia popa",
+                            "En sentido de las agujas del reloj, mirando desde popa hacia proa",
+                            "En sentido contrario a las agujas del reloj, mirando desde popa hacia proa",
+                            "Las respuestas a) y c) son correctas"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "La línea imaginaria que divide al barco en dos bandas, babor y estribor, se denomina:",
+                        "options": ["Línea de flotación", "Línea de crujía", "Línea de fe", "Línea de carena"],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "Para que el barbotén del molinete gire, es necesario:",
+                        "options": ["No hace falta hacer nada", "Desengrilletarlo", "Frenarlo", "Embragarlo"],
+                        "answerLetter": "D",
+                        "answer": 3
+                    }
+                ]
+            }
+        ]
+    },{
+        "year": "2015",
+        "sections": [
+            {
+                "section": "1ª A",
+                "questions": [
+                    {
+                        "question": "¿Qué es el asiento?",
+                        "options": [
+                            "La distancia entre la vertical de proa y la de popa.",
+                            "Es la diferencia entre el calado de popa y el calado de proa.",
+                            "Es la distancia vertical entre la línea de flotación y la quilla del buque.",
+                            "Ninguna de las respuestas anteriores es correcta."
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "¿Qué es la obra viva?",
+                        "options": [
+                            "La parte del casco que se encuentra por encima del plano de flotación.",
+                            "La parte del casco que se encuentra por debajo del plano de flotación.",
+                            "La parte del casco que se ve durante la navegación.",
+                            "La parte del casco que se encuentra por encima del plano de flotación, pero sin contar lo que hay por encima de la cubierta principal."
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "¿Qué es una hélice dextrógira?",
+                        "options": [
+                            "Aquella que gira en la maquina avante, vista a popa de la hélice, en el sentido de las agujas del reloj.",
+                            "Aquella que gira en la maquina avante, vista a popa de la hélice, en el sentido contrario de las agujas del reloj.",
+                            "Aquella hélice que tiene palas abatibles.",
+                            "Aquella hélice que tiene palas no abatibles."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "¿Qué es barlovento?",
+                        "options": [
+                            "El costado del barco por la cual sale el viento.",
+                            "El costado del barco por la cual entra el viento.",
+                            "Es la banda de estribor en los barcos de vela.",
+                            "Es la banda de babor en los barcos de vela."
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    }
+                ]
+            },
+            {
+                "section": "2ª A",
+                "questions": [
+                    {
+                        "question": "¿Qué es el desplazamiento máximo en embarcaciones de recreo?",
+                        "options": [
+                            "Es el volumen máximo del agua desplazada por la embarcación cuando está flotando.",
+                            "Es el peso del volumen del agua desplazada por la embarcación cuando está flotando.",
+                            "Es el volumen del agua desplazada por la carena cuando está flotando.",
+                            "a) y c) son ciertas."
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "¿Qué es adrizar?",
+                        "options": [
+                            "Es la propiedad que tiene una embarcación de recuperar su posición vertical, y quedarse sin escora.",
+                            "Es la propiedad que tiene una embarcación de perder su posición vertical.",
+                            "Es la propiedad que tiene un buque de girar para cambiar de rumbo.",
+                            "Todas las respuestas anteriores son falsas."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 1
+                    },
+                    {
+                        "question": "¿Qué es la proa?",
+                        "options": [
+                            "La parte delantera del buque.",
+                            "La parte trasera del buque.",
+                            "La parte lateral del buque.",
+                            "La parte de fondo del buque."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "¿Qué son los baos?",
+                        "options": [
+                            "La parte superior del costado.",
+                            "Pieza longitudinal que va de proa a popa.",
+                            "Son las paredes del barco.",
+                            "Refuerzos transversales que van de babor a estribor."
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    }
+                ]
+            },
+            {
+                "section": "3ª A",
+                "questions": [
+                    {
+                        "question": "Qué es la obra viva",
+                        "options": [
+                            "La parte sumergida del casco.",
+                            "La carena del casco.",
+                            "La parte que emerge del casco.",
+                            "Las respuestas a) y b) son ciertas."
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "Qué son los baos",
+                        "options": [
+                            "Refuerzos transversales que sostienen la cubierta.",
+                            "Refuerzos transversales que salen de la quilla.",
+                            "Refuerzos longitudinales que van de proa a popa por el costado.",
+                            "Es la parte más baja de la embarcación."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "Que es la limera",
+                        "options": [
+                            "Es la pala del timón.",
+                            "Es el eje que va de arriba abajo y transmite la fuerza de la pala del timón.",
+                            "Es el orificio por el cual entra la mecha del timón.",
+                            "Es la caña del timón."
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Que son las lumbreras",
+                        "options": [
+                            "Son aberturas que se realizan en la cubierta.",
+                            "Son aberturas que se realizan en el costado.",
+                            "Las respuestas a) y b) son verdaderas.",
+                            "Son piezas transversales de refuerzo."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    }
+                ]
+            }
+        ]
+    }       
+]
+
