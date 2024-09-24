@@ -97,6 +97,8 @@ declare global {
     store: typeof useQuestionsStore;
   }
 }
+if (typeof window !== "undefined") {
+    window.store = useQuestionsStore;
+}
 
-window.store = useQuestionsStore;
 export { useQuestionsStore };

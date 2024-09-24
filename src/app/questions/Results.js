@@ -8,9 +8,9 @@ const Results = () => {
   const percent = Math.round((correctItems.length / answers.length) * 100);
   if (answers.length < 1) return null;
   return (
-    <>
+    <p className="text-lg font-semibold px-3 py-3">
       {correctItems.length}/{answers.length} - {percent}%
-    </>
+    </p>
   );
 };
 

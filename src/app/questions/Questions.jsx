@@ -4,12 +4,12 @@ import { useQuestionsStore } from "../store/useQuestionsStore";
 import Image from "next/image";
 
 const Questions = () => {
-  const { course, answers, setAnswers, clearCourse } = useQuestionsStore();
+  const { course, answers, setAnswers } = useQuestionsStore();
   const letters = ["a", "b", "c", "d"];
   const cardVariants = {
-    correct: "bg-green-100",
-    wrong: "bg-red-200",
-    none: "",
+    correct: "bg-gradient-to-br from-green-50 to-green-100",
+    wrong: "bg-gradient-to-br from-red-100 to-red-200",
+    none: "bg-white",
   };
   const textVariants = {
     correct: "text-green-600 font-bold",
@@ -18,7 +18,7 @@ const Questions = () => {
   };
   return (
     <div>
-      <p>
+      <p className="text-lg font-semibold px-3 py-3">
         {course?.year} {course?.section}
       </p>
       <div className="grid grid-cols-1 gap-4 ">
@@ -46,7 +46,7 @@ const Questions = () => {
           return (
             <div
               key={`q${index}`}
-              className={`space-x-3 rounded-lg border border-gray-300 bg-white px-3 py-3 shadow-sm ${
+              className={`space-x-3 rounded-lg border border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100 px-3 py-3 shadow-sm ${
                 cardVariants[resultStyle(answered)]
               }`}
             >
@@ -71,8 +71,7 @@ const Questions = () => {
                   optionIndex === item.answer ? "correct" : "none";
                 return (
                   <p key={`o${optionIndex}`}>
-                    <a
-                      href="#"
+                    <button
                       className={`text-lg hover:pointer-events-auto ${
                         textVariants[mark ? selection : "none"]
                       } ${textVariants[answered ? correctAnswer : "none"]}`}
@@ -87,18 +86,18 @@ const Questions = () => {
                       }
                     >
                       {letters[optionIndex]}. {option}
-                    </a>
+                    </button>
                   </p>
                 );
               })}
               {answered && (
-                <>
+                <div className="text-xs mt-2">
                   <p>
                     Selection:{answers[arrIndex]?.answerValue}{" "}
                     {letters[answers[arrIndex]?.answerValue]}
                   </p>
                   <p>Answer:{course.questions[index].answerLetter} </p>
-                </>
+                </div>
               )}
             </div>
           );
