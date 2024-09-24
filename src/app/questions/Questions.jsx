@@ -9,7 +9,7 @@ const Questions = () => {
   const cardVariants = {
     correct: "bg-gradient-to-br from-green-50 to-green-100",
     wrong: "bg-gradient-to-br from-red-100 to-red-200",
-    none: "bg-white",
+    none: "border border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100",
   };
   const textVariants = {
     correct: "text-green-600 font-bold",
@@ -21,7 +21,7 @@ const Questions = () => {
       <p className="text-lg font-semibold px-3 py-3">
         {course?.year} {course?.section}
       </p>
-      <div className="grid grid-cols-1 gap-4 ">
+      <div className="grid grid-cols-1 gap-4">
         {course?.questions.map((item, index) => {
           const arrIndex = answers.findIndex(
             p =>
@@ -46,7 +46,7 @@ const Questions = () => {
           return (
             <div
               key={`q${index}`}
-              className={`space-x-3 rounded-lg border border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100 px-3 py-3 shadow-sm ${
+              className={`space-x-3 rounded-lg px-3 py-3 shadow-sm ${
                 cardVariants[resultStyle(answered)]
               }`}
             >
@@ -72,7 +72,7 @@ const Questions = () => {
                 return (
                   <p key={`o${optionIndex}`}>
                     <button
-                      className={`text-lg hover:pointer-events-auto ${
+                      className={`text-left text-lg hover:pointer-events-auto ${
                         textVariants[mark ? selection : "none"]
                       } ${textVariants[answered ? correctAnswer : "none"]}`}
                       onClick={() =>

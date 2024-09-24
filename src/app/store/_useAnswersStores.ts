@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import zustymiddleware from "zustymiddleware";
+import zustymiddlewarets from "zustymiddlewarets";
 import { isUndefined } from "lodash";
 
 type AnswersState = {
@@ -36,7 +36,7 @@ type AnswersState = {
 };
 
 const useQuestionsStore = create<AnswersState>(
-  zustymiddleware(
+  zustymiddlewarets(
     (
       set: (
         partial:
