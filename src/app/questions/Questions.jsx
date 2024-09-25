@@ -92,11 +92,10 @@ const Questions = () => {
               })}
               {answered && (
                 <div className="text-xs mt-2">
+                  <p>Tu respuesta: {letters[answers[arrIndex]?.answerValue]}</p>
                   <p>
-                    Selection:{answers[arrIndex]?.answerValue}{" "}
-                    {letters[answers[arrIndex]?.answerValue]}
+                    Respuesta correcta: {course.questions[index].answerLetter}{" "}
                   </p>
-                  <p>Answer:{course.questions[index].answerLetter} </p>
                 </div>
               )}
             </div>

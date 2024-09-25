@@ -68,7 +68,7 @@
                     },
                     {
                         "question": "¿Cómo se llama el ancla de la imagen?",
-                        "image": "/images/de-arado.png",
+                        "image": "/per-questions/images/de-arado.png",
                         "options": [
                             "Danforth",
                             "Rezón",
@@ -320,7 +320,7 @@
                             "Ninguna de las respuestas anteriores es correcta"
                         ],
                         "answerLetter":"C",
-                        "answer":3
+                        "answer":2
                     },
                     {
                         "question": "A la mayor distancia transversal del barco medida por fuera del forro (incluido el espesor de la chapa de ambos costados) se le denomina:",
@@ -790,7 +790,7 @@
                             "Todas las respuestas anteriores son falsas."
                         ],
                         "answerLetter": "A",
-                        "answer": 1
+                        "answer": 0
                     },
                     {
                         "question": "¿Qué es la proa?",
