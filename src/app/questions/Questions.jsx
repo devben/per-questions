@@ -7,14 +7,15 @@ const Questions = () => {
   const { course, answers, setAnswers } = useQuestionsStore();
   const letters = ["a", "b", "c", "d"];
   const cardVariants = {
-    correct: "bg-gradient-to-br from-green-50 to-green-100",
-    wrong: "bg-gradient-to-br from-red-100 to-red-200",
-    none: "border border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100",
+    correct: "bg-green-50 bg-gradient-to-br from-green-50 to-green-100",
+    wrong: "bg-red-50 bg-gradient-to-br from-red-100 to-red-200",
+    none: "border bg-slate-50 border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100",
   };
   const textVariants = {
     correct: "text-green-600 font-bold",
     wrong: "text-red-600 font-bold",
     none: "",
+    default: "text-slate-900",
   };
   return (
     <div>
@@ -46,7 +47,7 @@ const Questions = () => {
           return (
             <div
               key={`q${index}`}
-              className={`space-x-3 rounded-lg px-3 py-3 shadow-sm ${
+              className={`text-slate-900 space-x-3 rounded-lg px-3 py-3 shadow-sm ${
                 cardVariants[resultStyle(answered)]
               }`}
             >
