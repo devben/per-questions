@@ -13,8 +13,8 @@
                             "Están afirmados a las cuadernas",
                             "Todas las respuestas anteriores son correctas"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "Si miramos de popa hacia proa, una hélice de giro levógira es:",
@@ -24,8 +24,8 @@
                             "Aquella que en máquina atrás gira en el sentido de las agujas del reloj",
                             "Las respuestas a) y b) son correctas"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
                     },
                     {
                         "question": "Filar la cadena del ancla es la maniobra de:",
@@ -35,8 +35,8 @@
                             "Levar la cadena del ancla",
                             "Hacer zarpar la cadena del ancla"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "Banda de Sotavento es:",
@@ -46,9 +46,30 @@
                             "La banda por donde sale el viento",
                             "Las respuestas b) y c) son correctas"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
-                        
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "¿ Qué elemento de a bordo sirve para hacer firme un cabo ?:",
+                        "options": [
+                            "Cornamusa",
+                            "Noray",
+                            "Bita",
+                            "Las respuestas a) y c) son correctas"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "De los tenederos siguientes, ¿cuál sería el menos apropiado para fondear ?:",
+                        "options": [
+                            "Cascajo",
+                            "Arcilla",
+                            "Fango duro",
+                            "Fango blando"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
                     }
                 ]
             },
@@ -63,8 +84,8 @@
                             "Lumbreras",
                             "Imbornales"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "¿Cómo se llama el ancla de la imagen?",
@@ -75,8 +96,8 @@
                             "Almirantazgo",
                             "De arado"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "El orificio por el que la mecha del timón atraviesa el casco se llama:",
@@ -86,8 +107,8 @@
                             "Limera",
                             "Bocina"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
                     },
                     {
                         "question": "Las válvulas que se encuentran por debajo de la línea de flotación y que toman agua de mar para los diferentes servicios del barco son:",
@@ -97,8 +118,29 @@
                             "Válvulas de sentina",
                             "Ninguna de las respuestas anteriores es correcta"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
+                    },{
+                        "question": "Las protecciones que se emplean en las embarcaciones o en los muelles para evitar roces y golpes se llaman:",
+                        "options": [
+                            "Boyas",
+                            "Bolardos",
+                            "Defensas",
+                            "Guiacabos"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Al levar el ancla, esta tira por largo con mucha fuerza. ¿ Qué debemos hacer?",
+                        "options": [
+                            "Sacar la cadena del barboten",
+                            "Dar unas paladas avante",
+                            "Dar a avante con todo el timón a la banda contraria al ancla fondeada",
+                            "Dar unas paladas atrás"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             }
@@ -118,8 +160,8 @@
                             "Con las lumbreras",
                             "A través de los manguerotes"
                         ],
-                        "answerLetter":"A",
-                        "answer":0
+                        "answerLetter": "A",
+                        "answer": 0
                     },
                     {
                         "question": "La parte del casco que está por debajo de la línea de flotación se denomina:",
@@ -129,8 +171,8 @@
                             "Francobordo",
                             "Obra muerta"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "Cuando sacamos el ancla de su estiba y la dejamos colgando lista para fondear, se dice que el ancla:",
@@ -140,8 +182,8 @@
                             "Está a la pendura",
                             "Ha zarpado"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
                     },
                     {
                         "question": "La diferencia entre los calados de popa y proa se denomina:",
@@ -151,8 +193,29 @@
                             "Arrufo",
                             "Asiento"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
+                    },{
+                        "question": "Para poder levar el ancla, el molinete debe estar:",
+                        "options": [
+                            "Embragado",
+                            "Desembragado",
+                            "Aparejado",
+                            "Armado"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "Si la gaza de un cabo de amarre está encapillada a un noray:",
+                        "options": [
+                            "El firme y chicote están afirmados a bordo",
+                            "El firme está afirmado a tierra y el chicote a bordo",
+                            "El firme y el chicote están afirmados en tierra",
+                            "El firme está afirmado a bordo y el chicote a tierra"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
                     }
                 ]
             },
@@ -167,8 +230,8 @@
                             "Pala",
                             "Capacete"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "Los manguerotes sirven para:",
@@ -178,8 +241,8 @@
                             "Iluminar con luz natural un espacio del buque",
                             "Permitir la salida del agua que ha embarcado en cubierta"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "La maniobra de virar progresivamente la cadena del ancla para subirla a la embarcación se denomina:",
@@ -189,8 +252,8 @@
                             "Levar el ancla",
                             "Filar el ancla"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
                     },
                     {
                         "question": "El orificio por el que el eje del timón atraviesa el casco se denomina:",
@@ -200,8 +263,29 @@
                             "Mecha",
                             "Pala"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
+                    },{
+                        "question": "El elemento de tierra que sirve para encapillar en él la gaza de un cabo de amarre se denomina:",
+                        "options": [
+                            "Bita",
+                            "Muerto",
+                            "Cornamusa",
+                            "Noray"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "Con buen tiempo, la longitud de fondeo debe ser:",
+                        "options": [
+                            "De tres a cuatro veces la eslora",
+                            "De cinco a seis veces el fondo.",
+                            "De tres a cuatro veces el fondo",
+                            "De cinco a seis veces la eslora"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
                     }
                 ]
             },
@@ -216,8 +300,8 @@
                             "Mecha",
                             "Caña"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
                     },
                     {
                         "question": "El ancla de cuatro brazos terminados en uña se denomina:",
@@ -227,8 +311,8 @@
                             "Ancla de Cepo",
                             "Ancla de Arado"
                         ],
-                        "answerLetter":"A",
-                        "answer":0
+                        "answerLetter": "A",
+                        "answer": 0
                     },
                     {
                         "question": "La bocina es:",
@@ -238,8 +322,8 @@
                             "La sirena del barco",
                             "El orificio del casco por donde sale el eje de la hélice"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "Las zonas del costado donde la manga va disminuyendo para cerrar y formar la popa del barco, se denominan:",
@@ -249,8 +333,29 @@
                             "Amuras",
                             "Través"
                         ],
-                        "answerLetter":"A",
-                        "answer":0
+                        "answerLetter": "A",
+                        "answer": 0
+                    },{
+                        "question": "La piezas por donde pasan los cabos o amarras, que sirven para evitar que estos rocen con el casco o cualquier elemento de la cubierta y que además sirven para conducirlos en la dirección correcta se denominan:",
+                        "options": [
+                            "Roldanas",
+                            "Bitas",
+                            "Cornamusas",
+                            "Guía-cabos"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "¿ Qué hay que hacer si al levar el ancla ésta tira por largo con mucha fuerza ?:",
+                        "options": [
+                            "Aumentar la fuerza del molinete",
+                            "Dar unas paladas avante",
+                            "Dar avante con todo el timón a la banda contraria al ancla fondeada",
+                            "Dar unas paladas atrás"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             }
@@ -270,8 +375,8 @@
                             "Está clara, libre y arriba",
                             "Ha zarpado"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "El embrague del Molinete se utiliza para que:",
@@ -281,8 +386,8 @@
                             "El embrague no tiene nada que ver con el ancla, se utiliza solo para los cabos",
                             "El embrague no es una pieza del molinete, es una pieza del motor"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "Las piezas transversales afirmadas a las cuadernas y que sobre ellas se montan las cubiertas se llaman:",
@@ -292,8 +397,8 @@
                             "Regalas",
                             "Baos"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "A la distancia medida en el costado del buque y en el centro, comprendida entre la superficie de flotación hasta la cubierta completa más alta con medios permanentes de cierre se denomina:",
@@ -303,8 +408,30 @@
                             "Calado",
                             "Puntal"
                         ],
-                        "answerLetter":"A",
-                        "answer":0
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "¿ Qué nudo utilizamos para unir dos cabos de la misma mena y material ?:",
+                        "options": [
+                            "As de guía",
+                            "Ballestrinque",
+                            "Vuelta de rezón",
+                            "Llano"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "La longitud de fondeo con buen tiempo será:",
+                        "options": [
+                            "De tres a cuatro veces la eslora",
+                            "De cinco a seis veces la eslora",
+                            "De tres a cuatro veces el fondo",
+                            "De cinco a seis veces el fondo"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
                     }
                 ]
             },
@@ -319,8 +446,8 @@
                             "Candeleros",
                             "Ninguna de las respuestas anteriores es correcta"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
                     },
                     {
                         "question": "A la mayor distancia transversal del barco medida por fuera del forro (incluido el espesor de la chapa de ambos costados) se le denomina:",
@@ -330,8 +457,8 @@
                             "Manga con el forro",
                             "Anchura"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "Si en un buque de dos hélices, mirando hacia proa, la hélice de babor es levogira y la de estribor dextrógira, las hélices son:",
@@ -341,8 +468,8 @@
                             "Si la de babor es a la izquierda o levógira se considera que es como una hélice de giro levógira",
                             "De giro al exterior"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "El bloque o pieza sobre el que se montan las palas de una hélice se llama:",
@@ -352,8 +479,30 @@
                             "Bocina",
                             "Eje"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "Si queremos fondear con un ancla, antes de dar fondo debemos por regla general:",
+                        "options": [
+                            "Destrincar, dejar el ancla a la pendura y frenada, quitar el freno y dar fondo",
+                            "Dar fondo sin otra preparación, solo destrincar, el peso de la cadena podrá con el freno y nos servirá para que no salga muy rápida",
+                            "Arriarla con el barboten y sin quitar el freno",
+                            "Quitar solo el freno y dar fondo"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "Si queremos tener balizada el ancla, para evitar que la perdamos, se coloca en ella:",
+                        "options": [
+                            "Una boya o baliza cerca del lugar del fondeo, no en el ancla",
+                            "Un orinque",
+                            "Un garreo",
+                            "Un borneo"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             },
@@ -368,8 +517,8 @@
                             "Para poder quitar el freno",
                             "No tiene función alguna, solo sirve para poder virar los cabos, con el molinete embragado"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "Si estamos fondeados y la cadena o la línea de fondeo está perpendicular a la línea de flotación, (es decir llamando verticalmente) se dice que está:",
@@ -379,8 +528,8 @@
                             "Clara y libre",
                             "A pique"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "Las piezas transversales con cierta curvatura, sobre las que se montan las cubiertas se denominan:",
@@ -390,8 +539,8 @@
                             "Cuadernas",
                             "Plan"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "La limera es:",
@@ -401,8 +550,30 @@
                             "El orificio practicado en la bovedilla, sobre el codaste, por donde pasa la mecha",
                             "El orificio practicado en la bovedilla, sobre el codaste, por donde pasan los guardines"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Indicar cuál de los siguientes tenederos es el más adecuado para fondear:",
+                        "options": [
+                            "Piedra",
+                            "Coral",
+                            "Fango duro o compacto",
+                            "Las respuestas b) y c) son correctas"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Como norma general, la longitud de fondeo, con buen tiempo, será:",
+                        "options": [
+                            "De tres a cuatro veces la eslora del barco",
+                            "De cinco a seis veces el fondo",
+                            "De cinco a seis veces la eslora del barco",
+                            "De tres a cuatro veces el fondo"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 2
                     }
                 ]
             },
@@ -417,8 +588,8 @@
                             "En sentido contrario a las agujas del reloj, mirando desde popa hacia proa",
                             "Las respuestas a) y c) son correctas"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "Cuando estamos levantando el fondeo y el ancla está fuera del agua sin obstáculos se dice que:",
@@ -428,8 +599,8 @@
                             "Está clara y libre",
                             "Está a pique"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
                     },
                     {
                         "question": "La banda opuesta a aquella por la que recibimos el viento se denomina:",
@@ -439,8 +610,8 @@
                             "Banda de Sotavento",
                             "Ganando Barlovento"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
                     },
                     {
                         "question": "Si estamos inclinados a la banda de Estribor se dice que:",
@@ -450,8 +621,29 @@
                             "Estamos adrizando el barco a Estribor",
                             "Estamos escorados a Estribor"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
+                    },{
+                        "question": "¿ Para qué se emplea el nudo \"vuelta de rezón\" ?:",
+                        "options": [
+                            "Para amarrar defensas que han de estar tendidas mucho tiempo",
+                            "Para amarrar a un noray, si se ha de estar mucho tiempo",
+                            "Para afirmar un cabo a una argolla",
+                            "Las respuestas a) y c) son correctas"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "Cuando un barco gira alrededor de su ancla describe el:",
+                        "options": [
+                            "Círculo de fondeo",
+                            "Círculo de garreo",
+                            "Círculo de borneo",
+                            "Círculo del orinque"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
                     }
                 ]
             }
@@ -471,8 +663,8 @@
                             "Calado apopante",
                             "Asiento"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "El giro de una hélice dextrógira con máquinas atrás es:",
@@ -482,8 +674,8 @@
                             "En sentido contrario a las agujas del reloj, mirando desde popa hacia proa",
                             "Las respuestas a) y b) son correctas"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
                     },
                     {
                         "question": "Cuando el ancla despega del fondo se dice que:",
@@ -493,8 +685,8 @@
                             "Está a pique",
                             "Ha zarpado"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "Al costado contrario por donde se recibe el viento se denomina:",
@@ -504,8 +696,29 @@
                             "Sotavento",
                             "Babor"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
+                    },{
+                        "question": "El nudo llano se emplea para:",
+                        "options": [
+                            "Afirmar un cabo a un palo o a una bita",
+                            "Unir dos cabos de distinto grosor",
+                            "Unir dos cabos del mismo grosor",
+                            "Realizar una gaza"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Al círculo que describe el barco estando fondeado se llama:",
+                        "options": [
+                            "Círculo de Garreo",
+                            "Círculo de Borneo",
+                            "Círculo de Fondeo",
+                            "Círculo a la gira"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             },
@@ -520,8 +733,8 @@
                             "Plan",
                             "Obra muerta"
                         ],
-                        "answerLetter":"A",
-                        "answer":0
+                        "answerLetter": "A",
+                        "answer": 0
                     },
                     {
                         "question": "La hélice que, en marcha avante y vista desde popa, gira en sentido contrario a las agujas del reloj se denomina:",
@@ -531,8 +744,8 @@
                             "Hélice levógira",
                             "Hélice dextrógira"
                         ],
-                        "answerLetter":"C",
-                        "answer":2
+                        "answerLetter": "C",
+                        "answer": 2
                     },
                     {
                         "question": "Los cabos o cables que van de proa a popa a lo largo de los costados y a cierta altura, que sirven para poder agarrarnos y evitar que nos caigamos de la embarcación se denominan:",
@@ -542,8 +755,8 @@
                             "Pasamanos",
                             "Manguerotes"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "La maniobra de virar la cadena del ancla progresivamente hasta la embarcación, se denomina:",
@@ -553,8 +766,29 @@
                             "Filar el ancla",
                             "Levar el ancla"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
+                    },{
+                        "question": "Si queremos colgar una defensa por el pasamanos, realizaremos un nudo:",
+                        "options": [
+                            "Ballestrinque",
+                            "Llano",
+                            "Margarita",
+                            "Vuelta de rezón"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "Cuando un barco fondeado gira alrededor de su ancla decimos que:",
+                        "options": [
+                            "Garrea",
+                            "Se encuentra a la gira",
+                            "Rola",
+                            "Bornea"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
                     }
                 ]
             },
@@ -569,8 +803,8 @@
                             "Aquella sección de la embarcación definida entre las perpendiculares de proa y popa",
                             "Aquella sección del casco situada por encima del plano de flotación"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
                     },
                     {
                         "question": "La pieza recta y vertical en que termina el buque por su parte de popa se denomina:",
@@ -580,8 +814,8 @@
                             "Bao",
                             "Regala"
                         ],
-                        "answerLetter":"B",
-                        "answer":1
+                        "answerLetter": "B",
+                        "answer": 1
                     },
                     {
                         "question": "La diferencia entre el calado a popa de un buque y su calado a proa, para una flotación determinada se denomina:",
@@ -591,8 +825,8 @@
                             "Calado medio",
                             "Francobordo"
                         ],
-                        "answerLetter":"A",
-                        "answer":0
+                        "answerLetter": "A",
+                        "answer": 0
                     },
                     {
                         "question": "¿Cómo se denominan los orificios que permiten la evacuación de agua desde cubierta?",
@@ -602,8 +836,29 @@
                             "Lumbreras",
                             "Imbornales"
                         ],
-                        "answerLetter":"D",
-                        "answer":3
+                        "answerLetter": "D",
+                        "answer": 3
+                    }, {
+                        "question": "Si queremos afirmar rápidamente un cabo a la regala o afirmar una defensa a un pasamanos utilizaremos el nudo:",
+                        "options": [
+                            "As de guía",
+                            "Ballestrinque",
+                            "Llano",
+                            "Vuelta de rezón"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "Al extremo libre de un cabo se le denomina:",
+                        "options": [
+                            "Firme",
+                            "Seno",
+                            "Chicote",
+                            "Boza"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
                     }
                 ]
             }
@@ -617,13 +872,23 @@
                 "questions": [
                     {
                         "question": "Navegando al rumbo Norte con viento del Oeste, la banda de sotavento es:",
-                        "options": ["Babor", "La popa", "Estribor", "La proa"],
+                        "options": [
+                            "Babor",
+                            "La popa",
+                            "Estribor",
+                            "La proa"
+                        ],
                         "answerLetter": "C",
                         "answer": 2
                     },
                     {
                         "question": "Cuando la embarcación está inclinada de costado, se dice que está:",
-                        "options": ["Aproada", "Escorada", "Adrizada", "Apopada"],
+                        "options": [
+                            "Aproada",
+                            "Escorada",
+                            "Adrizada",
+                            "Apopada"
+                        ],
                         "answerLetter": "B",
                         "answer": 1
                     },
@@ -648,6 +913,27 @@
                         ],
                         "answerLetter": "C",
                         "answer": 2
+                    },{
+                        "question": "¿Qué nudo está especialmente indicado para afirmar un cabo a una argolla?",
+                        "options": [
+                            "Ballestrinque",
+                            "Vuelta de rezón",
+                            "Llano",
+                            "As de guía"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "¿Qué hay que hacer si al levar el ancla esta tira por largo con mucha fuerza?",
+                        "options": [
+                            "Dar unas paladas atrás",
+                            "Aumentar la fuerza del molinete",
+                            "Dar a avante con todo el timón a la banda contraria al ancla fondeada",
+                            "Dar unas paladas avante"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
                     }
                 ]
             },
@@ -656,27 +942,69 @@
                 "questions": [
                     {
                         "question": "Los orificios que permiten la salida de agua de la cubierta se denominan:",
-                        "options": ["Lumbreras", "Escotillas", "Imbornales", "Portillos"],
+                        "options": [
+                            "Lumbreras",
+                            "Escotillas",
+                            "Imbornales",
+                            "Portillos"
+                        ],
                         "answerLetter": "C",
                         "answer": 2
                     },
                     {
                         "question": "Si quisiéramos ventilar un espacio del buque utilizaríamos:",
-                        "options": ["Los candeleros", "Las bañeras", "Los barbotenes", "Los manguerotes"],
+                        "options": [
+                            "Los candeleros",
+                            "Las bañeras",
+                            "Los barbotenes",
+                            "Los manguerotes"
+                        ],
                         "answerLetter": "D",
                         "answer": 3
                     },
                     {
                         "question": "El elemento que, conectado a la rueda, invierte el sentido de giro de la pala del timón se denomina:",
-                        "options": ["Guardines o guarnes", "Servomotor", "Limera", "Mecha"],
+                        "options": [
+                            "Guardines o guarnes",
+                            "Servomotor",
+                            "Limera",
+                            "Mecha"
+                        ],
                         "answerLetter": "A",
                         "answer": 0
                     },
                     {
                         "question": "El lado o costado opuesto de donde viene el viento se denomina:",
-                        "options": ["Barlovento", "Escora", "Sotavento", "Adrizamiento"],
+                        "options": [
+                            "Barlovento",
+                            "Escora",
+                            "Sotavento",
+                            "Adrizamiento"
+                        ],
                         "answerLetter": "C",
                         "answer": 2
+                    },
+                    {
+                        "question": "La rueda por donde laborea un cabo se denomina:",
+                        "options": [
+                            "Bita",
+                            "Guiacabos",
+                            "Roldana",
+                            "Cornamusa"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "El cabo cuyos chicotes se amarran a la cruz del ancla y a un boyarín se denomina:",
+                        "options": [
+                            "Cabo de leva",
+                            "Vuelta de rezón",
+                            "Cabo de garreo",
+                            "Orinque"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
                     }
                 ]
             },
@@ -685,7 +1013,12 @@
                 "questions": [
                     {
                         "question": "La semisuma de los calados de proa y popa se denomina:",
-                        "options": ["Asiento", "Calado medio", "Calado aproante", "Alteración"],
+                        "options": [
+                            "Asiento",
+                            "Calado medio",
+                            "Calado aproante",
+                            "Alteración"
+                        ],
                         "answerLetter": "B",
                         "answer": 1
                     },
@@ -702,20 +1035,53 @@
                     },
                     {
                         "question": "La línea imaginaria que divide al barco en dos bandas, babor y estribor, se denomina:",
-                        "options": ["Línea de flotación", "Línea de crujía", "Línea de fe", "Línea de carena"],
+                        "options": [
+                            "Línea de flotación",
+                            "Línea de crujía",
+                            "Línea de fe",
+                            "Línea de carena"
+                        ],
                         "answerLetter": "B",
                         "answer": 1
                     },
                     {
                         "question": "Para que el barbotén del molinete gire, es necesario:",
-                        "options": ["No hace falta hacer nada", "Desengrilletarlo", "Frenarlo", "Embragarlo"],
+                        "options": [
+                            "No hace falta hacer nada",
+                            "Desengrilletarlo",
+                            "Frenarlo",
+                            "Embragarlo"
+                        ],
                         "answerLetter": "D",
                         "answer": 3
+                    },
+                    {
+                        "question": "El orinque sirve para:",
+                        "options": [
+                            "Era un elemento decorativo en las anclas de cepo",
+                            "Balizar el ancla",
+                            "Balizar el freno del molinete para comprobar que no pierde efectividad",
+                            "Balizar el grillete que está a bordo para saber si garreamos"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "La longitud de fondeo con buen tiempo debe ser:",
+                        "options": [
+                            "Dos veces el fondo",
+                            "De tres a cuatro veces el fondo",
+                            "De cuatro a seis veces el fondo",
+                            "De cinco a seis veces el fondo"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             }
         ]
-    },{
+    },
+    {
         "year": "2015",
         "sections": [
             {
@@ -764,6 +1130,28 @@
                         ],
                         "answerLetter": "B",
                         "answer": 1
+                    },
+                    {
+                        "question": "¿Para qué se usa el As de Guía, principalmente?",
+                        "options": [
+                            "Para unir dos cabos.",
+                            "Para hacer una gaza para el amarre.",
+                            "Para no dejar pasar un chicote por un hueco cualquiera.",
+                            "Para hacer firme una defensa."
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "¿Qué es el garreo?",
+                        "options": [
+                            "Pasar un cabo por la bita.",
+                            "Fondear un ancla.",
+                            "Pasar por seno un cabo.",
+                            "Arrastrar por el fondo un ancla fondeada."
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
                     }
                 ]
             },
@@ -813,6 +1201,28 @@
                         ],
                         "answerLetter": "D",
                         "answer": 3
+                    },
+                    {
+                        "question": "Función principal del nudo Vuelta de Rezón",
+                        "options": [
+                            "Unir dos cabos de la misma mena.",
+                            "Unir un cabo al arganeo.",
+                            "Hacer una gaza para amarrar el buque.",
+                            "Todas las respuestas son falsas."
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "¿Qué es el orinque?",
+                        "options": [
+                            "Un cabo de amarre que va a un muerto.",
+                            "Un cabo que sirve de driza.",
+                            "Un cabo que sirve para unir una boya con el ancla, y señalar donde está el ancla.",
+                            "El cabo que se usa en el molinete."
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
                     }
                 ]
             },
@@ -862,10 +1272,31 @@
                         ],
                         "answerLetter": "A",
                         "answer": 0
+                    },
+                    {
+                        "question": "El nudo llano se usa principalmente:",
+                        "options": [
+                            "Para unir dos cabos de la misma mena.",
+                            "Para unir un cabo al arganeo.",
+                            "Para hacer firme las defensas a los guardamancebos.",
+                            "Para realizar una gaza."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "¿Cuál consideras que es el mejor tenedero?",
+                        "options": [
+                            "Arena.",
+                            "Cascajo.",
+                            "Piedra.",
+                            "Algas."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
                     }
                 ]
             }
         ]
-    }       
+    }
 ]
-

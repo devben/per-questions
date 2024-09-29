@@ -1,0 +1,112 @@
+Output the attached pdf questions as json copying the following format
+{
+        "year": "2020",
+        "sections": [
+            {
+                "section": "1ª A",
+                "questions": [
+                    {
+                        "question": "En relación a los Baos:",
+                        "options": [
+                            "Son piezas dispuestas perpendicularmente a la línea de crujía",
+                            "Sobre ellos se montan las cubiertas",
+                            "Están afirmados a las cuadernas",
+                            "Todas las respuestas anteriores son correctas"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "Si miramos de popa hacia proa, una hélice de giro levógira es:",
+                        "options": [
+                            "Aquella que en máquina avante gira en el sentido de las agujas del reloj",
+                            "Aquella que en máquina atrás gira en sentido contrario a las agujas del reloj",
+                            "Aquella que en máquina atrás gira en el sentido de las agujas del reloj",
+                            "Las respuestas a) y b) son correctas"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "Filar la cadena del ancla es la maniobra de:",
+                        "options": [
+                            "Virar progresivamente la cadena del ancla",
+                            "Arriar progresivamente la cadena del ancla",
+                            "Levar la cadena del ancla",
+                            "Hacer zarpar la cadena del ancla"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    },
+                    {
+                        "question": "Banda de Sotavento es:",
+                        "options": [
+                            "La banda por donde entra el viento",
+                            "La banda contraria a la de barlovento",
+                            "La banda por donde sale el viento",
+                            "Las respuestas b) y c) son correctas"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                        
+                    },
+                    
+                ]
+            },
+            {
+                "section": "3ª A",
+                "questions": [
+                    {
+                        "question": "Los orificios, practicados en el forro exterior a la altura del trancanil, con el fin de dar salida al agua de cubierta se llaman:",
+                        "options": [
+                            "Candeleros",
+                            "Aliviaderos",
+                            "Lumbreras",
+                            "Imbornales"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "¿Cómo se llama el ancla de la imagen?",
+                        "image": "/per-questions/images/de-arado.png",
+                        "options": [
+                            "Danforth",
+                            "Rezón",
+                            "Almirantazgo",
+                            "De arado"
+                        ],
+                        "answerLetter":"D",
+                        "answer":3
+                    },
+                    {
+                        "question": "El orificio por el que la mecha del timón atraviesa el casco se llama:",
+                        "options": [
+                            "Prensa estopa",
+                            "Guardines",
+                            "Limera",
+                            "Bocina"
+                        ],
+                        "answerLetter":"C",
+                        "answer":2
+                    },
+                    {
+                        "question": "Las válvulas que se encuentran por debajo de la línea de flotación y que toman agua de mar para los diferentes servicios del barco son:",
+                        "options": [
+                            "Aspiraciones de las bombas de achique",
+                            "Los grifos de fondo",
+                            "Válvulas de sentina",
+                            "Ninguna de las respuestas anteriores es correcta"
+                        ],
+                        "answerLetter":"B",
+                        "answer":1
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+    repeat with 2019
+
