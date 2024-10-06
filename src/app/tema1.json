@@ -70,6 +70,49 @@
                         ],
                         "answerLetter": "D",
                         "answer": 3
+                    },{
+                        "question": "La acción de recibir las olas por la amura cuando existe mala mar, manteniendo la embarcación avante y con poca velocidad, se conoce como:",
+                        "options": [
+                            "Correr el temporal",
+                            "Capear el temporal",
+                            "Ponerse a son de mar",
+                            "Entrar en sincronismo con la mar"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "En caso de hombre al agua, ¿cuál de las siguientes maniobras es más aconsejable cuando no conocemos con exactitud la situación del náufrago?",
+                        "options": [
+                            "Exploración de Boutakow",
+                            "Maniobra de Anderson",
+                            "Exploración secuencial",
+                            "Exploración en espiral cuadrada"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "Para prevenir y evitar una situación de hombre al agua, ¿qué afirmación es correcta?",
+                        "options": [
+                            "En los veleros no es necesario estar pendiente de la botavara",
+                            "Los candeleros son unos elementos fiables para prevenir una caída",
+                            "Hay que desplazarse con cuidado por cubierta, empleando los equipos de seguridad a nuestro alcance",
+                            "Las respuestas b) y c) son correctas"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "La propiedad que tiene el buque una vez escorado de recuperar su posición de equilibrio, cuando se encuentra flotando en aguas en reposo, se denomina:",
+                        "options": [
+                            "Estabilidad dinámica longitudinal",
+                            "Estabilidad estática transversal",
+                            "Estabilidad estática longitudinal",
+                            "Estabilidad dinámica transversal"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             },
@@ -138,6 +181,50 @@
                             "Dar unas paladas avante",
                             "Dar a avante con todo el timón a la banda contraria al ancla fondeada",
                             "Dar unas paladas atrás"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "Aquellas aguas próximas a la costa en las que, por existencia de bajos o poco agua bajo la quilla, es necesario navegar con precaución se conocen como:",
+                        "options": [
+                            "Aguas superficiales",
+                            "Veriles",
+                            "Sondas",
+                            "Aguas someras"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "Cuando capeamos un temporal:",
+                        "options": [
+                            "Recibimos la mar por la amura",
+                            "Recibimos la mar por la aleta",
+                            "Recibimos la mar por el través",
+                            "Recibimos la mar por la popa"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "La expresión utilizada para indicar que se ha estibado y trincado a bordo con criterio y a conciencia antes de salir a la mar es:",
+                        "options": [
+                            "Listos para zarpar",
+                            "Al francobordo",
+                            "A son de mar",
+                            "Listos y arranchados"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Señale la respuesta correcta sobre las recomendaciones de uso y estiba de los aros salvavidas a bordo:",
+                        "options": [
+                            "Deben colocarse tanto a proa como a popa unidos a una rabiza flotante",
+                            "Deberán colocarse en las bandas (aletas) o en popa, con luz y un sistema rápido de soltado y lanzado al agua",
+                            "Deberán colocarse por las bandas (amuras) o en proa, con un sistema rápido de puesta a flote",
+                            "Ninguna de las respuestas anteriores es correcta"
                         ],
                         "answerLetter": "B",
                         "answer": 1
@@ -216,6 +303,49 @@
                         ],
                         "answerLetter": "D",
                         "answer": 3
+                    },{
+                        "question": "La estabilidad estática transversal se define como:",
+                        "options": [
+                            "La propiedad que tiene el buque de compensar el arrufo, cuando se encuentra flotando en aguas en reposo",
+                            "La propiedad que tiene el buque de compensar el quebranto provocado por las condiciones del mar",
+                            "La propiedad que tiene el buque, una vez escorado, de recuperar su posición de equilibrio, cuando se encuentra flotando en aguas en reposo",
+                            "La propiedad que tiene el buque de mantenerse adrizado, cuando se encuentra flotando en cualquier situación de mar"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "El reflector radar:",
+                        "options": [
+                            "Es un elemento electrónico que emite una señal propia que permite facilitar la localización de la embarcación",
+                            "Es un elemento de seguridad que permite proteger la antena del radar en aquellas embarcaciones que lo lleven",
+                            "Es un elemento de seguridad que permite incrementar el eco de nuestra embarcación en las pantallas del radar de otros buques",
+                            "Es un elemento electrónico que emite y recibe ondas electromagnéticas"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Si tenemos que emplear señales visuales de socorro, tales como bengalas o cohetes:",
+                        "options": [
+                            "Las lanzaremos o encenderemos siempre por barlovento",
+                            "Ensayaremos previamente los movimientos a realizar",
+                            "Las utilizaremos en cuanto abandonemos nuestra embarcación",
+                            "Todas las respuestas anteriores son correctas"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "En caso de «hombre al agua por babor», para librar de la hélice a la persona que ha caído al agua debemos:",
+                        "options": [
+                            "Caer a babor",
+                            "Caer a estribor",
+                            "Mantener el rumbo con respecto al viento aparente y parar máquinas",
+                            "Poner rápidamente el timón a la vía"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
                     }
                 ]
             },
@@ -286,6 +416,49 @@
                         ],
                         "answerLetter": "C",
                         "answer": 2
+                    },{
+                        "question": "La tendencia a recobrar la posición de adrizado cuando el barco se escora debido a la acción de fuerzas exteriores se llama:",
+                        "options": [
+                            "Estabilidad transversal",
+                            "Navegabilidad",
+                            "Flotabilidad",
+                            "Adrizamiento"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "En caso de hombre al agua NO se debe:",
+                        "options": [
+                            "Lanzar un aro salvavidas",
+                            "Señalar con un bote de humo su posición",
+                            "Saltar al agua en su auxilio, aunque sea sin chaleco y sin cabo de sujeción",
+                            "Ninguna de las respuestas anteriores es correcta"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "La caída de un rayo en las proximidades de nuestro barco puede afectar a la aguja:",
+                        "options": [
+                            "Provocando un cambio en la declinación magnética",
+                            "Produciendo un desvío de aguja anómalo",
+                            "La inducción magnética de la descarga no afecta a la aguja",
+                            "Las respuestas a) y b) son correctas"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "El disparo de un cohete con luz roja y paracaídas debe realizarse:",
+                        "options": [
+                            "Desde cualquier lugar de la embarcación y lo más rápido posible, ya que nos urge",
+                            "Con guantes o trapos en la mano, alejando la cara del cohete, por sotavento y con el cohete apuntando al cielo",
+                            "Con guantes, alejando la cara del cohete, por barlovento y apuntando al cielo",
+                            "Por popa y lanzándolo al mar rápidamente"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             },
@@ -356,6 +529,50 @@
                         ],
                         "answerLetter": "B",
                         "answer": 1
+                    },
+                    {
+                        "question": "El movimiento transversal de la embarcación, de babor a estribor y viceversa, se denomina:",
+                        "options": [
+                            "Balance",
+                            "Escora",
+                            "Cabezada",
+                            "Adrizamiento"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "Cuando existe mala mar, la acción de recibir las olas por la amura, manteniendo la embarcación avante y con poca velocidad, se conoce como:",
+                        "options": [
+                            "Correr el temporal",
+                            "Capear el temporal",
+                            "Estar a son de mar",
+                            "Sincronismo"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "En caso de \"hombre al agua\", la maniobra que consiste en variar el rumbo del buque 270°, para encontrarnos al náufrago por la proa se denomina:",
+                        "options": [
+                            "Maniobra de Williamson",
+                            "Maniobra de Boutakow",
+                            "Maniobra de Anderson",
+                            "Maniobra en redondo"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "La expresión \"a son de mar\" hace referencia a:",
+                        "options": [
+                            "Estibar y trincar todos los elementos y material del barco con criterio y a conciencia, antes de salir a navegar",
+                            "Con mal tiempo y oleaje, navegar al son de las olas, es decir, buscando el sincronismo",
+                            "Navegar de amurada a la dirección del oleaje",
+                            "Las respuestas b) y c) son correctas"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
                     }
                 ]
             }
@@ -432,6 +649,50 @@
                         ],
                         "answerLetter": "C",
                         "answer": 2
+                    },
+                    {
+                        "question": "¿Cuál es la mejor forma de gobernar para evitar las cabezadas?:",
+                        "options": [
+                            "Poner amura al temporal con poca máquina",
+                            "Navegar con la aleta a la mar",
+                            "Navegar llevando la mar por la proa",
+                            "Las respuestas a) y b) son correctas"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "Señale la respuesta correcta sobre las recomendaciones de uso y estiba de los aros salvavidas a bordo:",
+                        "options": [
+                            "Deben colocarse tanto a proa como a popa unidos a una rabiza flotante",
+                            "Deberán colocarse en las bandas (aletas) o en popa, con luz y un sistema rápido de soltado y lanzado al agua",
+                            "Deberán colocarse por las bandas (amuras) en un sistema rápido de puesta a flote",
+                            "Ninguna de las respuestas anteriores es correcta"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "La maniobra de búsqueda cuando no conocemos con exactitud la situación del náufrago, se denomina:",
+                        "options": [
+                            "Exploración de Anderson",
+                            "Maniobra de exploración de Boutakow",
+                            "Exploración en espiral cuadrada",
+                            "Aproximación sectorial"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Si solicitamos un remolque por cualquier motivo, ¿qué NO debemos hacer antes y durante la operación de remolque?:",
+                        "options": [
+                            "Mientras llega la embarcación de rescate nos mantendremos a la escucha en el canal VHF que Salvamento Marítimo nos haya indicado",
+                            "Para hacer firme el remolque lo haremos por la popa e iremos con el chaleco, calzado antideslizante y guantes",
+                            "Por norma general el cabo de remolque lo suministrará la lancha de salvamento. Primero nos lanzarán una sisga, y a esa sisga se le anudará el cabo de remolque",
+                            "Una vez haya hecho firme el cabo de remolque, pondremos el timón a la vía y seguiremos las instrucciones del buque remolcador"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             },
@@ -503,6 +764,50 @@
                         ],
                         "answerLetter": "B",
                         "answer": 1
+                    },
+                    {
+                        "question": "La estabilidad estática transversal se define como:",
+                        "options": [
+                            "La propiedad que tiene el buque una vez escorado de recuperar su posición de equilibrio, cuando se encuentra flotando en aguas en reposo",
+                            "La propiedad que tiene el buque una vez escorado de recuperar su posición de equilibrio, cuando se encuentra flotando en cualquier situación de mar",
+                            "La propiedad que tiene el buque de mantenerse adrizado, cuando se encuentra flotando en aguas en reposo",
+                            "La propiedad que tiene el buque de mantenerse adrizado, cuando se encuentra flotando en cualquier situación de mar"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "Indique que afirmación es correcta en relación al arnés de seguridad:",
+                        "options": [
+                            "Consiste en un cabo de cáñamo, provisto de un chaleco que sujetaremos en la espalda",
+                            "El arnés de seguridad es para mantenerse unido a la embarcación si se cae por la borda",
+                            "Utilice arnés de cinta en lugar de cabo. Así se evita que, al pisar el arnés, ruede y nos haga resbalar",
+                            "Es de talla única y no se adapta al tripulante, por lo que debemos adquirir uno adecuado a nuestra talla"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "En situación de Hombre al agua, y una vez el náufrago esté a bordo, qué procedimiento NO es correcto para tratar la hipotermia:",
+                        "options": [
+                            "Trasladar al afectado horizontalmente, evitando golpes",
+                            "Mantenerlo con la ropa mojada y secar sin frotar, especialmente las extremidades",
+                            "Abrigar a la víctima a resguardo del viento",
+                            "Si el náufrago está inconsciente, hacer una llamada de socorro y/o consulta radiomédica"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "Las aguas poco profundas en las que la embarcación corre el riesgo de una varada involuntaria, se denominan aguas:",
+                        "options": [
+                            "Aguas sondables",
+                            "Aguas superficiales",
+                            "Aguas someras",
+                            "Aguas muertas"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
                     }
                 ]
             },
@@ -574,6 +879,50 @@
                         ],
                         "answerLetter": "D",
                         "answer": 2
+                    },
+                    {
+                        "question": "El movimiento transversal de la embarcación de babor a estribor y viceversa se denomina:",
+                        "options": [
+                            "Balance",
+                            "Escora",
+                            "Cabezada",
+                            "Adrizamiento"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "Si tenemos que emplear señales visuales de socorro tales como bengalas o cohetes ¿qué recomendaciones debemos seguir?:",
+                        "options": [
+                            "Leer atentamente las instrucciones",
+                            "Ensayar previamente los movimientos a realizar",
+                            "Lanzarlas o encenderlas siempre por barlovento",
+                            "Las respuestas a) y b) son correctas"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "Antes de hacerse a la mar, deberemos, entre otras, realizar las siguientes comprobaciones:",
+                        "options": [
+                            "Comprobar los filtros de decantación de agua, la refrigeración y la correa del alternador",
+                            "Comprobar el nivel de combustible y la reserva de agua salada en los tanques",
+                            "Comprobar la existencia de un aro salvavidas por cada tripulante",
+                            "Todas las respuestas anteriores son correctas"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "¿Qué maniobra es adecuada cuando se ve que un náufrago cae al agua, y se quiere volver rápidamente a la situación de la caída?:",
+                        "options": [
+                            "Realizar la maniobra por sectores",
+                            "Realizar la maniobra de Boutakow",
+                            "Invertir la marcha y timón a estribor",
+                            "Poner timón a la vía"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             },
@@ -641,6 +990,50 @@
                             "Círculo de garreo",
                             "Círculo de borneo",
                             "Círculo del orinque"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Se conoce con la acepción marinera de «capear el temporal» a la acción de:",
+                        "options": [
+                            "Recibir las olas por la amura cuando existe mala mar, manteniendo la embarcación avante y con poca velocidad",
+                            "Recibir las olas por la amura cuando existe mala mar, manteniendo la embarcación avante y con la máxima velocidad disponible",
+                            "Recibir las olas por la aleta cuando existe mala mar, manteniendo la embarcación avante y con poca velocidad",
+                            "Alejarse de la trayectoria de un temporal lo más rápido posible"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "En caso de «hombre al agua», la maniobra que consiste en meter el timón a la banda por donde se apercibió la caída al mar y mantenerlo en esa posición hasta variar el rumbo inicial en 250º, en cuyo momento se pone timón a la vía y se inicia la maniobra de parada, se denomina:",
+                        "options": [
+                            "Maniobra o evolución de Williamson",
+                            "Maniobra de Boutakow",
+                            "Maniobra o evolución de Anderson",
+                            "Maniobra en espiral"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "En caso de no tener gobierno y tener que tomar remolque, debemos saber que:",
+                        "options": [
+                            "El cabo de remolque suele terminar con un gancho pelícano, que amarraremos en cualquier bita o noray de nuestra embarcación, a ser posible a proa",
+                            "En caso de que nuestra embarcación disponga de balcón, el cabo de remolque deberá de ir por encima de éste, para dejarlo claro y que los candeleros no interfieran en el movimiento del mismo",
+                            "El cabo de remolque suele terminar en una bifurcación conocida como pie de gallo, que permite amarrar el cabo en cada amura",
+                            "El cabo de remolque siempre debe ser suministrado por el buque remolcado, y, por tanto, es obligatorio tener uno a bordo destinado a tal fin"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "¿Qué número marcaremos si queremos contactar con Salvamento Marítimo por teléfono?",
+                        "options": [
+                            "900 202 112",
+                            "900 200 202",
+                            "900 202 202",
+                            "900 200 200"
                         ],
                         "answerLetter": "C",
                         "answer": 2
@@ -719,6 +1112,50 @@
                         ],
                         "answerLetter": "B",
                         "answer": 1
+                    },
+                    {
+                        "question": "A la propiedad que tiene el buque, a recuperar la posición que tenía, cuando por efecto de las fuerzas exteriores se inicia un movimiento de cabeceo se denomina:",
+                        "options": [
+                            "Estabilidad longitudinal",
+                            "Flotabilidad estática longitudinal",
+                            "Estabilidad estática transversal",
+                            "Estabilidad dinámica transversal"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "Al capear un temporal:",
+                        "options": [
+                            "Recibimos la mar por la aleta",
+                            "Recibimos la mar por el través",
+                            "Recibimos la mar por la amura",
+                            "Recibimos la mar por la popa"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "En caso de hipotermia de un tripulante, qué medida NO ES CORRECTA realizar:",
+                        "options": [
+                            "Valorar si precisa reanimación cardio-pulmonar: vía aérea eficaz; ventilarlo si no respira; masaje cardíaco si no presenta pulso",
+                            "Colocar al paciente recién sacado del agua en posición horizontal",
+                            "Retirar todas las prendas mojadas",
+                            "Permitir que camine o haga ejercicio para que entre en calor"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "Las bengalas de mano se usarán:",
+                        "options": [
+                            "Cuando tengamos la seguridad de que nos puedan ver",
+                            "Utilizando además la tecla MOB del receptor GPS",
+                            "Tan pronto como se produzca el abandono de la embarcación, ya que las señales funcionan durante un tiempo, aunque no haya buques a la vista",
+                            "Las respuestas b) y c) son correctas"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
                     }
                 ]
             },
@@ -789,6 +1226,50 @@
                         ],
                         "answerLetter": "D",
                         "answer": 3
+                    },
+                    {
+                        "question": "Al utilizar un extintor de polvo seco se debe:",
+                        "options": [
+                            "Agitarlo antes de su uso, por si el polvo está apelmazado",
+                            "Presurizarlo antes si es necesario, inclinándolo ligeramente hacia adelante y atacar la base del fuego",
+                            "Presurizarlo antes si es necesario, inclinándolo ligeramente hacia adelante y atacar directamente las llamas",
+                            "Las respuestas a) y b) son correctas"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "¿ Cuándo debemos usar las señales pirotécnicas ?",
+                        "options": [
+                            "Antes de abandonar la embarcación y subir a la balsa",
+                            "Tan pronto como nos encontremos en la embarcación",
+                            "Cuando exista la posibilidad de que puedan verlas y podamos ser localizados",
+                            "No hace falta utilizarlas, ya que tenemos otros medios para que puedan localizarnos"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Cuando decimos que extinguimos un incendio por eliminación del combustible, estamos utilizando como mecanismo de extinción:",
+                        "options": [
+                            "La sofocación",
+                            "Corte de la reacción en cadena",
+                            "El enfriamiento",
+                            "La desalimentación"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "A la propiedad que tiene el buque una vez escorado de recuperar su posición de equilibrio, cuando se encuentra flotando en aguas en reposo, se denomina:",
+                        "options": [
+                            "Estabilidad dinámica longitudinal",
+                            "Estabilidad estática transversal",
+                            "Estabilidad estática longitudinal",
+                            "Estabilidad dinámica transversal"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             },
@@ -859,6 +1340,50 @@
                         ],
                         "answerLetter": "C",
                         "answer": 2
+                    },
+                    {
+                        "question": "El reflector radar:",
+                        "options": [
+                            "Es un elemento electrónico que emite una señal propia que permite facilitar la localización de la embarcación",
+                            "Es un elemento de seguridad que permite incrementar el eco de nuestra embarcación en las pantallas del radar de otros buques",
+                            "Es un elemento estructural que permite proteger la antena del radar en aquellas embarcaciones que lo lleven",
+                            "Ninguna de las respuestas anteriores es correcta"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "La altura mínima que deberá alcanzar un cohete con paracaídas será de:",
+                        "options": [
+                            "100 metros",
+                            "50 metros",
+                            "300 metros",
+                            "200 metros"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "En el caso de la caída al agua de una persona desde una embarcación a motor, lo primero que se hará será:",
+                        "options": [
+                            "Meter el timón a la banda contraria por la que ha caído la persona",
+                            "Meter el timón a la banda por la que ha caído la persona",
+                            "Parar la máquina",
+                            "Dar máquina atrás"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "Cuando aguantamos un temporal aproándolo hasta que amaine se dice que:",
+                        "options": [
+                            "Estamos corriendo el temporal",
+                            "Estamos capeando el temporal",
+                            "Estamos desarbolados",
+                            "Ninguna de las respuestas anteriores es correcta"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             }
@@ -934,6 +1459,50 @@
                         ],
                         "answerLetter": "D",
                         "answer": 3
+                    },
+                    {
+                        "question": "¿ Por qué es importante no atravesarse a la mar con mal tiempo?",
+                        "options": [
+                            "Para no comprometer la estabilidad de la embarcación",
+                            "Para evitar grandes balances",
+                            "Si se gobierna atravesado a la mar, no hay peligro",
+                            "Las respuestas a) y b) son correctas"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "Si navegamos con mal tiempo es recomendable:",
+                        "options": [
+                            "Revisar la estiba y trinca de todos los elementos que se puedan mover",
+                            "Tener colocado un arnés y un chaleco salvavidas",
+                            "Revisar y tener cerradas todas las aberturas",
+                            "Todas las respuestas son correctas"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "En relación con el arnés de seguridad, ¿cuál de las siguientes respuestas NO es correcta?",
+                        "options": [
+                            "Debe afirmarse preferentemente al pecho, en lugar de a la espalda",
+                            "Está pensado para evitar caer al agua",
+                            "Es preferible que la sujeción sea de cinta, en lugar de cabo",
+                            "Debe adaptarse a la talla de cada tripulante"
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "En caso de hombre al agua, el sistema de navegación por satélite (GNSS) guarda la posición del barco al pulsar la tecla:",
+                        "options": [
+                            "COG",
+                            "WP1",
+                            "MOB",
+                            "SOG"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
                     }
                 ]
             },
@@ -1005,6 +1574,50 @@
                         ],
                         "answerLetter": "D",
                         "answer": 3
+                    },
+                    {
+                        "question": "El movimiento longitudinal de la embarcación, alzando y bajando la proa y la popa, se denomina:",
+                        "options": [
+                            "Balances longitudinales",
+                            "Cabezadas",
+                            "Machetazos",
+                            "Estrechonazos"
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "A la propiedad que tiene el buque, una vez escorado, de recuperar su posición de equilibrio cuando se encuentra flotando en aguas en reposo, se denomina:",
+                        "options": [
+                            "Estabilidad dinámica longitudinal",
+                            "Estabilidad estática longitudinal",
+                            "Estabilidad estática transversal",
+                            "Estabilidad dinámica transversal"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "¿ Cuál de las siguientes afirmaciones NO es correcta?",
+                        "options": [
+                            "Se recomienda que las líneas de vida sean planas, para no resbalar si se pisan",
+                            "La línea de amarre del arnés de seguridad debe ser de longitud corta, para evitar caer al agua",
+                            "El arnés de seguridad debe afirmarse preferentemente al pecho",
+                            "Debe haber, como mínimo, un chaleco salvavidas por cada tripulante, incluidos los de los niños"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Si en una persona no hay signos de circulación sanguínea, o no estamos seguros de que la tenga, realizaremos:",
+                        "options": [
+                            "Sólo respiración boca a boca",
+                            "Sólo masaje cardiaco",
+                            "Maniobra RCP (reanimación cardiopulmonar)",
+                            "No se puede hacer nada, es imposible su reanimación"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
                     }
                 ]
             },
@@ -1076,6 +1689,50 @@
                         ],
                         "answerLetter": "B",
                         "answer": 1
+                    },
+                    {
+                        "question": "El movimiento transversal de la embarcación de babor a estribor y viceversa se denomina:",
+                        "options": [
+                            "Escoras",
+                            "Cabezadas",
+                            "Balances",
+                            "Adrizamientos"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Corriendo un temporal, con la mar de popa, procuraremos:",
+                        "options": [
+                            "Llevar una velocidad adecuada para no embarcar agua",
+                            "Navegar con asiento aproante, para elevar la popa",
+                            "No dar guiñadas para no atravesarse a la mar",
+                            "Las respuestas a) y c) son correctas"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "En caso de hombre al agua, para señalizar su posición se debe:",
+                        "options": [
+                            "Solo es necesario pulsar en el receptor GPS la tecla MOB",
+                            "Es suficiente con lanzarle un aro salvavidas",
+                            "Lanzarle un aro salvavidas, con luz a ser posible, y señalizar con un bote de humo su posición",
+                            "Se debe parar el buque y que el náufrago nade hasta nosotros, así evitamos problemas en la recogida y darle la falsa apariencia de que nos alejamos"
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Antes de hacernos a la mar debemos comprobar:",
+                        "options": [
+                            "Los niveles de aceite, combustible, refrigerante y agua potable",
+                            "La estanqueidad y los sistemas de achique",
+                            "El estado de las baterías",
+                            "Todas las respuestas son correctas"
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
                     }
                 ]
             }
@@ -1152,6 +1809,50 @@
                         ],
                         "answerLetter": "D",
                         "answer": 3
+                    },
+                    {
+                        "question": "La señal fumígena flotante emitirá humo al menos durante qué tiempo:",
+                        "options": [
+                            "5 minutos",
+                            "2 minutos",
+                            "3 minutos",
+                            "La respuesta a) y b) son correctas."
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "En caso de hombre al agua, en una embarcación a motor, ¿Qué haremos primero?",
+                        "options": [
+                            "Caer a la banda de Estribor o Babor, indiferentemente.",
+                            "Parar maquinas",
+                            "Meter el timón a la banda donde cayó el hombre/mujer y lanzarle un aro salvavidas.",
+                            "Meter el timón a la banda opuesta por donde cayó el hombre/mujer y lanzarle un aro salvavidas."
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "Obligaciones de todas las embarcaciones de recreo:",
+                        "options": [
+                            "Deben llevar obligatoriamente extintores portátiles, cuyo número dependerá de la eslora y de la planta propulsora, independientemente del sistema de extinción que posean.",
+                            "Los extintores portátiles no son obligatorios.",
+                            "No están obligadas a llevar extintores portátiles, si tiene un sistema de extinción instalado a bordo.",
+                            "Puede sustituir los extintores portátiles por baldes contraincendios."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "El balance se define:",
+                        "options": [
+                            "Como la oscilación de la embarcación que se produce en sentido trasversal (proa-popa) debido al estado de la mar.",
+                            "Como la oscilación de la embarcación que se produce en sentido trasversal (babor-estribor) debido al estado de la mar.",
+                            "Como la oscilación de la embarcación que se produce en sentido longitudinal (proa-popa) debido al estado de la mar.",
+                            "Como la oscilación de la embarcación que se produce en sentido longitudinal (babor-estribor) debido al estado de la mar."
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             },
@@ -1223,6 +1924,50 @@
                         ],
                         "answerLetter": "C",
                         "answer": 2
+                    },
+                    {
+                        "question": "Podemos definir hipotermia como",
+                        "options": [
+                            "El descenso de la temperatura corporal por debajo de los 35°C.",
+                            "Un calentamiento del cuerpo por encima de su temperatura normal de 37°C.",
+                            "La sudoración excesiva.",
+                            "La respuesta b) y c) son correctas."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "La altura mínima que debe ascender el cohete con luz roja y paracaídas es:",
+                        "options": [
+                            "100 metros.",
+                            "200 metros.",
+                            "300 metros.",
+                            "250 metros."
+                        ],
+                        "answerLetter": "C",
+                        "answer": 2
+                    },
+                    {
+                        "question": "¿Para qué sirve el reflector radar?",
+                        "options": [
+                            "Facilitar que una embarcación pueda ser detectada por los radares de otros buques.",
+                            "Emitir señales visuales detectables por otros barcos.",
+                            "Ayuda a nuestro radar a detectar a otros buques.",
+                            "Evitar la interferencias de las comunicaciones por VHF."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "Podemos definir Cabezada.",
+                        "options": [
+                            "Como la oscilación natural de la embarcación en el sentido transversal (babor-estribor) por causas de las olas.",
+                            "Como la oscilación natural de la embarcación en el sentido longitudinal (proa-popa) por causas de las olas.",
+                            "Como la oscilación de la embarcación que se produce en sentido longitudinal (babor-estribor) debido al estado de la mar.",
+                            "Como la oscilación de la embarcación que se produce en sentido transversal (babor-estribor) debido al estado de la mar."
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             },
@@ -1294,6 +2039,50 @@
                         ],
                         "answerLetter": "A",
                         "answer": 0
+                    },
+                    {
+                        "question": "Que entiendes por aguas someras",
+                        "options": [
+                            "Aquellas en las cuales la profundidad es mayor que la mitad de la longitud de la ola media.",
+                            "Aquellas aguas poco profundas en la que nuestra embarcación puede correr riesgo de varada involuntaria.",
+                            "Aquellas aguas con una profundidad donde no existe riesgo para nuestra embarcación.",
+                            "Las respuestas a) y b) son correctas."
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
+                    },
+                    {
+                        "question": "La maniobra de Anderson que realizaremos si un hombre cae por babor, consistirá ...",
+                        "options": [
+                            "En meter timón a la banda de caída y desarrollamos un giro hasta modificar 270° nuestro rumbo.",
+                            "En meter todo el timón a la banda del náufrago hasta que la proa caiga 70°. Entonces cambiar todo el timón a la otra banda y navegar a rumbo opuesto.",
+                            "Exploración por sectores.",
+                            "Exploración en espiral cuadrada."
+                        ],
+                        "answerLetter": "A",
+                        "answer": 0
+                    },
+                    {
+                        "question": "¿Qué operaciones hay que realizar antes de poner en funcionamiento el motor de propulsión?",
+                        "options": [
+                            "Comprobar el nivel del líquido refrigerante.",
+                            "Comprobar el nivel de aceite del transmisor.",
+                            "Abrir los grifos de fondo de refrigeración.",
+                            "Todas las anteriores son correctas."
+                        ],
+                        "answerLetter": "D",
+                        "answer": 3
+                    },
+                    {
+                        "question": "Los Chalecos salvavidas deben colocarse",
+                        "options": [
+                            "En 3 minutos como máximo sin ayuda, orientación o demostración previa.",
+                            "En 1 minuto como máximo sin ayuda, orientación o demostración previa.",
+                            "En 30 segundos como máximo sin ayuda, orientación o demostración previa.",
+                            "Ninguna respuesta es correcta."
+                        ],
+                        "answerLetter": "B",
+                        "answer": 1
                     }
                 ]
             }
