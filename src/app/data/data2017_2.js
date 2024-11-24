@@ -121,6 +121,66 @@ const data2017_2 = [
     answerLetter: "D",
     answer: 3,
   },
+  {
+    question:
+      "Una marca en forma de castillete con seis franjas verticales iguales azules y amarillas indica:",
+    options: [
+      "Depende del puerto",
+      "Peligro nuevo",
+      "Aguas libres",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "Navegando de noche observamos una luz emitiendo grupos de dos destellos blancos, deberemos interpretar que es:",
+    options: [
+      "Marca cardinal este",
+      "Marca de peligro aislado",
+      "Marca de aguas navegables",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "Si navegando de día vemos por la proa una marca lateral en forma de castillete roja con una franja verde, debemos interpretar que:",
+    options: [
+      "Es una marca lateral que debemos dejar por babor",
+      "El canal principal queda por estribor de la marca",
+      "Es una marca lateral que debemos dejar por estribor",
+      "El canal principal queda a babor de la marca",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "De noche, navegando con rumbo oeste observamos por nuestra proa una luz que emite grupos de seis destellos muy rápidos más un destello cada diez segundos ¿Qué deberemos hacer?:",
+    options: [
+      "Dejarla por estribor",
+      "Dejarla por babor",
+      "No tiene importancia por qué costado la dejemos",
+      "Todas las respuestas anteriores son correctas",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question:
+      "Entrando a un puerto español, las marcas laterales verdes de la canal principal de acceso deberán quedar por nuestro costado de:",
+    options: [
+      "Babor",
+      "Estribor",
+      "Depende del puerto",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
 ];
 
 export default data2017_2;

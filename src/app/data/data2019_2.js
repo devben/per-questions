@@ -124,6 +124,66 @@ const data2019_2 = [
     answerLetter: "D",
     answer: 3,
   },
+  {
+    question:
+      "Navegando a rumbo Este avistamos por la proa una señal luminosa consistente en una luz blanca centelleante continua. En este caso:",
+    options: [
+      "Caeremos a babor, para dejarla por estribor",
+      "Caeremos a estribor, para dejarla por babor",
+      "Es indiferente dejarla por babor o por estribor",
+      "No hay ninguna marca que emita esa señal luminosa",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question:
+      "¿Cómo es la marca de tope de una marca que de noche emite una luz consistente en un grupo de dos destellos blancos?:",
+    options: [
+      "Una esfera",
+      "Dos esferas",
+      "Dos conos con el vértice hacia abajo",
+      "Dos conos con el vértice hacia arriba",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "Entrando de noche en puerto por un canal balizado llegamos a una boya que emite un grupo de 2 + 1 destellos rojos. Si queremos seguir por el canal principal dejaremos esta marca por:",
+    options: [
+      "Babor",
+      "Estribor",
+      "Es indiferente, ya que señala el centro del canal",
+      "Es indiferente, pero debemos reducir la velocidad a la mínima de gobierno",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question:
+      "Una boya negra con una o varias anchas bandas horizontales rojas es una marca:",
+    options: [
+      "De aguas navegables",
+      "Lateral de bifurcación",
+      "Cardinal norte",
+      "De peligro aislado",
+    ],
+    answerLetter: "D",
+    answer: 3,
+  },
+  {
+    question:
+      "Un castillete, negro en su parte central y amarillo en sus partes superior e inferior, es una marca:",
+    options: [
+      "Cardinal este",
+      "Cardinal oeste",
+      "De peligro aislado",
+      "Especial",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
 ];
 
 export default data2019_2;

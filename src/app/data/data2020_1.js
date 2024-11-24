@@ -133,6 +133,65 @@ const data2020_1 = [
     answerLetter: "C",
     answer: 2,
   },
+  {
+    question:
+      "Una marca cuya luz es un grupo de dos destellos blancos cada quince segundos es una:",
+    options: [
+      "Marca de peligro aislado",
+      "Marca cardinal sur",
+      "Marca de aguas navegables",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question: "Una marca de aguas navegables puede ser utilizada:",
+    options: [
+      "Para indicar que las aguas son navegables alrededor de la marca",
+      "Para definir los ejes de los canales",
+      "Para indicar la entrada de un canal, la aproximación a un puerto o estuario o un punto de recalada",
+      "Todas las respuestas anteriores son correctas",
+    ],
+    answerLetter: "D",
+    answer: 3,
+  },
+  {
+    question:
+      "La marca de tope (si la tiene) de una marca lateral de babor es:",
+    options: [
+      "Ninguna. Las marcas laterales no utilizan marcas de tope",
+      "Una esfera",
+      "Un cono",
+      "Un cilindro",
+    ],
+    answerLetter: "D",
+    answer: 3,
+  },
+  {
+    question:
+      "Entrando en puerto por un canal balizado vemos una marca que emite una luz consistente en un grupo de 2 + 1 destellos verdes. Si queremos seguir por el canal principal, dejaremos esta marca por nuestra banda de:",
+    options: [
+      "Babor",
+      "Estribor",
+      "Cuando vemos esa marca significa que estamos navegando por un canal secundario. Debemos invertir el rumbo para volver al canal principal",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "Una marca emite una luz blanca durante dos segundos, está apagada durante dos segundos, y así sucesivamente de forma ininterrumpida. Se trata de una marca:",
+    options: [
+      "Cardinal norte",
+      "De peligro aislado",
+      "De aguas navegables",
+      "Especial",
+    ],
+    answerLetter: "C",
+    answer: 2,
+  },
 ];
 
 export default data2020_1;

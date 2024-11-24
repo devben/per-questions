@@ -118,6 +118,65 @@ const data2019_3 = [
     answerLetter: "B",
     answer: 1,
   },
+  {
+    question:
+      "Una marca verde con una franja horizontal roja en el centro y un cono como marca de tope es una marca que indica:",
+    options: [
+      "Que entrando en puerto se debe dejar siempre por babor",
+      "Que entrando en puerto se debe dejar siempre por estribor",
+      "Bifurcación canal principal a babor",
+      "Bifurcación canal principal a estribor",
+    ],
+    answerLetter: "C",
+    answer: 2,
+  },
+  {
+    question: "La marca de tope de aguas navegables, si tiene, es:",
+    options: [
+      "Una esfera roja",
+      "Un cilindro",
+      "Una aspa amarilla, en forma de X",
+      "Las marcas de aguas navegables no tienen marca de tope",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question:
+      "Una boya emite una luz centelleante blanca de grupos de nueve centelleos cada 15 segundos. Se trata de una marca:",
+    options: [
+      "De aguas navegables",
+      "Cardinal Este",
+      "Cardinal Sur",
+      "Cardinal Oeste",
+    ],
+    answerLetter: "D",
+    answer: 3,
+  },
+  {
+    question:
+      "Dos conos negros superpuestos con los vértices hacia abajo, identifican una:",
+    options: [
+      "Marca cardinal Sur",
+      "Marca cardinal Norte",
+      "Marca de aguas navegables",
+      "Marca de peligro aislado",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question:
+      "En relación con las marcas especiales, ¿cuál de las siguientes respuestas NO es correcta?:",
+    options: [
+      "Indican zonas o configuraciones especiales, cuya naturaleza se visualiza al consultar la carta u otra publicación náutica",
+      "Su forma es de libre elección, pero sin que se preste a confusión con las marcas para ayuda a la navegación",
+      "El ritmo de su luz puede ser cualquiera",
+      "Se pueden utilizar como marcas de separación de tráfico donde el balizamiento convencional del canal puede prestarse a confusión",
+    ],
+    answerLetter: "C",
+    answer: 2,
+  },
 ];
 
 export default data2019_3;

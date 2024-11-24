@@ -120,6 +120,65 @@ const data2018_1 = [
     answerLetter: "B",
     answer: 1,
   },
+  {
+    question:
+      "Una marca, cuya mitad superior es negra y la inferior amarilla, es una:",
+    options: [
+      "Marca cardinal Sur",
+      "Marca cardinal Norte",
+      "Marca lateral de bifurcación",
+      "Marca de peligro aislado",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "Un espeque rojo con una banda ancha horizontal verde en la parte central es:",
+    options: [
+      "Una marca lateral de estribor",
+      "Una marca lateral de babor",
+      "Una marca lateral de bifurcación, canal principal a estribor",
+      "Las respuestas a) y c) son correctas",
+    ],
+    answerLetter: "C",
+    answer: 2,
+  },
+  {
+    question: "Una marca cardinal Este:",
+    options: [
+      "Indica que las aguas más profundas se encuentran al este de ella",
+      "Es de color negro, con una banda ancha horizontal amarilla",
+      "Su marca de tope consiste en dos conos negros superpuestos unidos por sus bases",
+      "Todas las respuestas anteriores son correctas",
+    ],
+    answerLetter: "D",
+    answer: 3,
+  },
+  {
+    question:
+      "Una boya emite de noche un grupo de 2 destellos rojos cada 5 segundos; se trata de:",
+    options: [
+      "Una marca lateral de bifurcación, canal principal a estribor",
+      "Una marca lateral de bifurcación, canal principal a babor",
+      "Una marca lateral de babor",
+      "Una marca lateral de estribor",
+    ],
+    answerLetter: "C",
+    answer: 2,
+  },
+  {
+    question:
+      "Una boya cuya marca de tope es un aspa amarilla en forma de “X” es una marca:",
+    options: [
+      "Cardinal Sur",
+      "Cardinal Norte",
+      "Especial",
+      "De peligro aislado",
+    ],
+    answerLetter: "C",
+    answer: 2,
+  },
 ];
 
 export default data2018_1;
