@@ -12,7 +12,6 @@ export default function Home() {
       <div className=" min-h-screen p-8 pb-20 gap-16 sm:p-20 sm:pt-12">
         <SelectCourse />
         <Questions />
-      
     </div>
     <StickyFooter />
     </>

@@ -120,8 +120,8 @@ const Questions = () => {
                       <div className="flex items-center">
                         {/* Radio button styling (visual only) */}
                         <span
-                          className={`relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white mr-2 ${
-                            mark ? "bg-black" : ""
+                          className={`relative size-4 appearance-none rounded-full border border-gray-300 before:absolute before:inset-1 before:rounded-full before:bg-white mr-2 ${
+                            mark ? "bg-black" : "bg-white "
                           }`}
                         ></span>
                         {/* Option letter (a, b, c, d) and option text */}
