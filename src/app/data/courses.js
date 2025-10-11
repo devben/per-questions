@@ -1,3 +1,4 @@
+import data2024_3 from "./data2024_3.js";
 import data2020_1 from "./data2020_1.js";
 import data2020_3 from "./data2020_3.js";
 import data2019_1 from "./data2019_1.js";
@@ -18,6 +19,15 @@ import data2015_2 from "./data2015_2.js";
 import data2015_3 from "./data2015_3.js";
 
 const courses = [
+  {
+    year: "2024",
+    sections: [
+      {
+        section: "3ª A",
+        questions: data2024_3,
+      },
+    ],
+  },
   {
     year: "2020",
     sections: [

@@ -99,89 +99,87 @@ const data2019_1 = [
     answerLetter: "A",
     answer: 0,
   },
-  [
-    {
-      question: "Las embarcaciones de recreo españolas:",
-      options: [
-        "No están obligadas a enarbolar, como único pabellón, la bandera de España",
-        "Podrán izar la bandera autonómica en un puerto nacional, pero siempre a la vez que el Pabellón nacional",
-        "Están obligadas a izar la bandera autonómica, a la entrada y salida de un puerto nacional, cuando así lo disponga la autoridad competente",
-        "Podrán tener izada la bandera autonómica en los días festivos, aunque no lo esté el Pabellón nacional",
-      ],
-      answerLetter: "B",
-      answer: 1,
-    },
-    {
-      question: "En las aguas portuarias el vertido de aguas sucias:",
-      options: [
-        "Se permite previo tratamiento",
-        "No se permite, ni siquiera con tratamiento",
-        "Se permite sin previo tratamiento",
-        "Ninguna de las respuestas anteriores es correcta",
-      ],
-      answerLetter: "B",
-      answer: 1,
-    },
-    {
-      question:
-        "Las únicas marcas del Sistema de Balizamiento Marítimo IALA-AISM que utilizan una luz blanca son las marcas:",
-      options: [
-        "Cardinales, de peligro aislado, de aguas navegables y especiales",
-        "Cardinales, de peligro aislado y de aguas navegables",
-        "Cardinales y de peligro aislado",
-        "Cardinales",
-      ],
-      answerLetter: "B",
-      answer: 1,
-    },
-    {
-      question: "Las marcas de peligro aislado:",
-      options: [
-        "Se colocan sobre, o próximas, a un peligro rodeado por todas partes de aguas navegables",
-        "Están pintadas a franjas verticales rojas y negras",
-        "Tienen como marca de tope una esfera negra",
-        "Ninguna de las respuestas anteriores es correcta",
-      ],
-      answerLetter: "A",
-      answer: 0,
-    },
-    {
-      question:
-        "Un cono verde con el vértice hacia arriba es la marca de tope de:",
-      options: [
-        "Las marcas laterales de estribor y las marcas de canal principal a babor",
-        "Las marcas laterales de estribor y las marcas de canal principal a estribor",
-        "Las marcas laterales de babor y las marcas de canal principal a babor",
-        "Las marcas laterales de babor y las marcas de canal principal a estribor",
-      ],
-      answerLetter: "A",
-      answer: 0,
-    },
-    {
-      question:
-        "Una marca que emite un grupo de dos destellos verdes cada 10 segundos es:",
-      options: [
-        "Una marca lateral de estribor",
-        "Una marca lateral de babor",
-        "Una marca de canal principal a babor",
-        "Una marca de canal principal a estribor",
-      ],
-      answerLetter: "A",
-      answer: 0,
-    },
-    {
-      question:
-        "¿Cuál de los siguientes ritmos corresponde a la luz de una marca cardinal oeste?:",
-      options: [
-        "Centelleante rápido de grupos de seis centelleos VQ-(6) cada 10 segundos",
-        "Centelleante de grupos de seis centelleos Q-(6) cada 10 segundos",
-        "Centelleante rápido de grupos de nueve centelleos VQ-(9) cada 15 segundos",
-        "Centelleante de grupos de nueve centelleos Q-(9) cada 15 segundos",
-      ],
-      answerLetter: "D",
-      answer: 3,
-    },
-  ],
+  {
+    question: "Las embarcaciones de recreo españolas:",
+    options: [
+      "No están obligadas a enarbolar, como único pabellón, la bandera de España",
+      "Podrán izar la bandera autonómica en un puerto nacional, pero siempre a la vez que el Pabellón nacional",
+      "Están obligadas a izar la bandera autonómica, a la entrada y salida de un puerto nacional, cuando así lo disponga la autoridad competente",
+      "Podrán tener izada la bandera autonómica en los días festivos, aunque no lo esté el Pabellón nacional",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question: "En las aguas portuarias el vertido de aguas sucias:",
+    options: [
+      "Se permite previo tratamiento",
+      "No se permite, ni siquiera con tratamiento",
+      "Se permite sin previo tratamiento",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "Las únicas marcas del Sistema de Balizamiento Marítimo IALA-AISM que utilizan una luz blanca son las marcas:",
+    options: [
+      "Cardinales, de peligro aislado, de aguas navegables y especiales",
+      "Cardinales, de peligro aislado y de aguas navegables",
+      "Cardinales y de peligro aislado",
+      "Cardinales",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question: "Las marcas de peligro aislado:",
+    options: [
+      "Se colocan sobre, o próximas, a un peligro rodeado por todas partes de aguas navegables",
+      "Están pintadas a franjas verticales rojas y negras",
+      "Tienen como marca de tope una esfera negra",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question:
+      "Un cono verde con el vértice hacia arriba es la marca de tope de:",
+    options: [
+      "Las marcas laterales de estribor y las marcas de canal principal a babor",
+      "Las marcas laterales de estribor y las marcas de canal principal a estribor",
+      "Las marcas laterales de babor y las marcas de canal principal a babor",
+      "Las marcas laterales de babor y las marcas de canal principal a estribor",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question:
+      "Una marca que emite un grupo de dos destellos verdes cada 10 segundos es:",
+    options: [
+      "Una marca lateral de estribor",
+      "Una marca lateral de babor",
+      "Una marca de canal principal a babor",
+      "Una marca de canal principal a estribor",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question:
+      "¿Cuál de los siguientes ritmos corresponde a la luz de una marca cardinal oeste?:",
+    options: [
+      "Centelleante rápido de grupos de seis centelleos VQ-(6) cada 10 segundos",
+      "Centelleante de grupos de seis centelleos Q-(6) cada 10 segundos",
+      "Centelleante rápido de grupos de nueve centelleos VQ-(9) cada 15 segundos",
+      "Centelleante de grupos de nueve centelleos Q-(9) cada 15 segundos",
+    ],
+    answerLetter: "D",
+    answer: 3,
+  },
 ];
 
 export default data2019_1;
