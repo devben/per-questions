@@ -120,6 +120,65 @@ const data2017_1 = [
     answerLetter: "B",
     answer: 1,
   },
+  {
+    question:
+      "Entrando en el canal principal de un puerto español las marcas laterales de color rojo debemos dejarlas por:",
+    options: [
+      "Babor",
+      "Estribor",
+      "Depende del puerto",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question: "Una marca de peligro aislado:",
+    options: [
+      "Es negra con una o más bandas anchas horizontales amarillas",
+      "Su marca de tope lo constituyen dos esferas negras superpuestas",
+      "Emite una luz roja continua",
+      "Su marca de tope lo constituye un aspa de color rojo",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "Si navegando de noche por el canal principal de acceso a un puerto español nos encontramos con una marca que emite grupos de destellos de (2 + 1) rojos, debemos interpretar que:",
+    options: [
+      "El canal principal queda a babor de la marca",
+      "El canal principal queda a estribor de la marca",
+      "Es una marca lateral que debemos dejar por babor",
+      "Es una marca lateral que debemos dejar por estribor",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "De día, navegando con rumbo norte, nos encontramos por nuestra proa un espeque negro con una banda central horizontal ancha, amarilla, y una marca de tope de dos triángulos unidos por su base ¿qué deberemos hacer?:",
+    options: [
+      "Dejarla por estribor",
+      "Dejarla por babor",
+      "No tiene importancia por qué costado la dejemos",
+      "Todas las respuestas anteriores son correctas",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "Si, navegando de noche, por el canal principal de acceso a un puerto español observamos las marcas laterales verdes por nuestro costado de babor, significa que:",
+    options: [
+      "Nos hemos salido del canal de navegación, que estará a nuestro babor",
+      "Nos hemos salido del canal de navegación, que estará a nuestro estribor",
+      "Estamos navegando perfectamente por el centro del canal",
+      "Estamos navegando en la región B de balizamiento",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
 ];
 
 export default data2017_1;

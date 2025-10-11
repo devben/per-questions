@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import zustymiddleware from "zustymiddleware";
 import { isUndefined } from "lodash";
+import courses from "../data/courses";
 
 type QuestionsState = {
   course:
@@ -18,6 +19,7 @@ type QuestionsState = {
       }
     | undefined; // This holds the current course
   answers: Array<{ year: string; section: string; questionIndex: number; answerValue: number, correctAnswer: number }>;
+  submited: boolean; // State to track if the quiz has been submitted
   setCourse: (selectedCourse: {
     year: string;
     section: string;
@@ -30,9 +32,11 @@ type QuestionsState = {
       image: string;
     }>;
   }) => void; // Action to set the course
+  setRandomCourse: () => void; // Action to set a random course
   setAnswers: (
     answer: { questionIndex: number; answerIndex: number; year: string; section: string, correctAnswer: number }
   ) => void; // Action to set the answer
+  setSubmited: (submitted: boolean) => void; // Action to set the submitted state
   clearCourse: () => void; // Action to clear the course
 };
 
@@ -47,6 +51,7 @@ const useQuestionsStore = create<QuestionsState>(
     ) => ({
       course: undefined,
       answers: [],
+      submited: false,
       setCourse: (selectedCourse: {
         year: string;
         section: string;
@@ -59,7 +64,39 @@ const useQuestionsStore = create<QuestionsState>(
           image: string;
         }>;
       }) => set(() => ({ course: selectedCourse })),
-      setAnswers: (answer: { questionIndex: number; answerIndex: number; year: string; section: string; correctAnswer: number }) =>
+      
+      setRandomCourse: () => {
+        // Get all available course sections
+        const allSections = courses.flatMap(course => 
+          course.sections.map(section => ({
+            year: course.year,
+            section: section.section,
+            questions: section.questions,
+          }))
+        );
+        
+        // Pick a random section
+        const randomIndex = Math.floor(Math.random() * courses.length);
+        const randomCourse = allSections[randomIndex];
+        
+        // Use the existing setCourse function with properly formatted questions
+        const setCourseFunction = useQuestionsStore.getState().setCourse;
+        setCourseFunction({
+          year: randomCourse.year,
+          section: randomCourse.section,
+          questions: randomCourse.questions.map(q => ({
+            question: q.question,
+            answerLetter: q.answerLetter,
+            answer: q.answer,
+            userAnswer: 0,
+            questions: q.options,
+            options: q.options,
+            image: "",
+          })),
+        });
+      },
+
+      setAnswers: (answer: { answered: boolean; questionIndex: number; answerIndex: number; year: string; section: string; correctAnswer: number }) =>
         set((state: QuestionsState) => {
           const { questionIndex, answerIndex, year, section, correctAnswer } = answer;
           if (!state.answers || isUndefined(questionIndex)) return state;
@@ -87,7 +124,10 @@ const useQuestionsStore = create<QuestionsState>(
           };
         }),
   
-      clearCourse: () => set(() => ({ course: undefined })),
+      setSubmited: (submitted: boolean) => set(() => ({ submited: submitted })),
+      clearCourse: () => set(() => ({ course: undefined,
+        answers: []
+       })),
     })
   )
 );

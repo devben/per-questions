@@ -131,6 +131,63 @@ const data2018_3 = [
     answerLetter: "C",
     answer: 2,
   },
+  {
+    question:
+      "Un destello blanco largo cada diez segundos es la luz de una marca:",
+    options: [
+      "De aguas navegables",
+      "Cardinal Norte",
+      "Especial",
+      "Esa luz no corresponde a ninguna marca del sistema IALA-AISM",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question: "El ritmo de la luz de una marca cardinal Sur es:",
+    options: [
+      "Grupo de 3 centelleos",
+      "Grupo de 6 centelleos",
+      "Grupo de 3 centelleos más un destello largo",
+      "Grupo de 6 centelleos más un destello largo",
+    ],
+    answerLetter: "D",
+    answer: 3,
+  },
+  {
+    question: "Una marca cardinal Este indica que:",
+    options: [
+      "Las aguas más profundas se encuentran en el cuadrante Este",
+      "Las aguas menos profundas se encuentran en el cuadrante Este",
+      "Hay un peligro al Este de la marca",
+      "Las respuestas b) y c) son correctas",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question:
+      "¿Cuál es la marca de tope de una marca de color rojo con una banda ancha horizontal verde?:",
+    options: [
+      "Un cilindro rojo",
+      "Un cilindro verde",
+      "Un cono rojo",
+      "Un cono verde",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question: "Dos esferas negras superpuestas identifican una:",
+    options: [
+      "Marca cardinal Sur",
+      "Marca cardinal Norte",
+      "Marca de aguas navegables",
+      "Marca de peligro aislado",
+    ],
+    answerLetter: "D",
+    answer: 3,
+  },
 ];
 
 export default data2018_3;

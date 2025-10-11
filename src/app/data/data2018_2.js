@@ -132,6 +132,65 @@ const data2018_2 = [
     answerLetter: "B",
     answer: 1,
   },
+  {
+    question: "Un aspa amarilla en forma de X es la marca de tope de una:",
+    options: [
+      "Marca de aguas navegables",
+      "Marca lateral de bifurcación",
+      "Marca especial",
+      "Marca de peligro aislado",
+    ],
+    answerLetter: "C",
+    answer: 2,
+  },
+  {
+    question:
+      "Una boya que de noche emite un grupo de 2+1 destellos verdes es:",
+    options: [
+      "Una marca lateral de bifurcación, canal principal a estribor",
+      "Una marca lateral de bifurcación, canal principal a babor",
+      "Una marca lateral de babor",
+      "Una marca lateral de estribor",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "Navegando a rumbo este, aparece por la proa una marca cuya mitad superior es de color negro y la mitad inferior amarilla. Debemos:",
+    options: [
+      "Caer a estribor para dejarla por nuestra banda de babor",
+      "Caer a babor para dejarla por nuestra banda de estribor",
+      "Es indiferente la banda por la que la dejemos, siempre que le demos un resguardo suficiente",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "B",
+    answer: 1,
+  },
+  {
+    question:
+      "Un castillete pintado a franjas verticales rojas y blancas es una marca:",
+    options: [
+      "Cardinal este",
+      "Cardinal oeste",
+      "De peligro aislado",
+      "De aguas navegables",
+    ],
+    answerLetter: "D",
+    answer: 3,
+  },
+  {
+    question:
+      "Dos conos negros superpuestos, con los vértices hacia abajo, identifican una:",
+    options: [
+      "Marca cardinal Sur",
+      "Marca cardinal Norte",
+      "Marca lateral de bifurcación",
+      "Marca de peligro aislado",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
 ];
 
 export default data2018_2;

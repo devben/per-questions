@@ -156,6 +156,56 @@ const data2020_3 = [
     answerLetter: "D",
     answer: 3,
   },
+  {
+    question: "El ritmo de la luz de una marca de peligro aislado es:",
+    options: [
+      "Grupo de dos destellos",
+      "Un destello largo cada diez segundos",
+      "Grupo de dos ocultaciones",
+      "Las respuestas a) y c) son correctas",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question: "Para definir los ejes de los canales se utilizan las marcas:",
+    options: ["Cardinales", "Especiales", "Laterales", "De aguas navegables"],
+    answerLetter: "D",
+    answer: 3,
+  },
+  {
+    question: "Un cilindro de color rojo es la marca de tope de una marca:",
+    options: [
+      "Lateral de babor",
+      "Lateral de bifurcación, canal principal a babor",
+      "De peligro aislado",
+      "Las respuestas a) y b) son correctas",
+    ],
+    answerLetter: "A",
+    answer: 0,
+  },
+  {
+    question: "Saliendo de puerto por un canal balizado:",
+    options: [
+      "Tendremos por estribor las marcas de color verde",
+      "Tendremos por babor las marcas cuya marca de tope es un cilindro",
+      "Las respuestas a) y b) son correctas",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "D",
+    answer: 3,
+  },
+  {
+    question: "Las marcas cardinales:",
+    options: [
+      "Son marcas colocadas o fondeadas sobre un peligro a cuyo alrededor las aguas son navegables",
+      "Indican zonas o configuraciones especiales cuya naturaleza se visualiza al consultar la carta u otra publicación náutica",
+      "Pueden utilizarse para llamar la atención sobre una configuración especial de un canal, tal como un recodo, una confluencia, una bifurcación o el extremo de un bajo fondo",
+      "Ninguna de las respuestas anteriores es correcta",
+    ],
+    answerLetter: "C",
+    answer: 2,
+  },
 ];
 
 export default data2020_3;
