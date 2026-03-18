@@ -33,7 +33,7 @@ export default function Home() {
 
         {/* Badge near top */}
         <div className="absolute top-24 sm:top-28 left-1/2 -translate-x-1/2 z-10">
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md text-white/90 border border-white/20 px-5 py-2 rounded-full text-sm font-medium shadow-lg">
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md text-white/90 border border-white/20 px-3 sm:px-5 py-2 rounded-full text-xs sm:text-sm font-medium shadow-lg whitespace-nowrap">
             <span>⛵</span>
             <span>Patrón de Embarcaciones de Recreo</span>
           </div>
