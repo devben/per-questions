@@ -8,7 +8,6 @@ import { useQuestionsStore } from "../store/useQuestionsStore";
 const SelectCourse = () => {
   const { setCourse, setRandomCourse, course, answers, clearCourse } =
     useQuestionsStore();
-  console.log("course", course);
   return (
     <div>
       {/* Show course selection when no course is chosen */}
