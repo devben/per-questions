@@ -32,7 +32,7 @@ const StickyFooter = () => {
             onClick={() => setSubmited(true)}
             className={`font-semibold py-3 px-8 rounded-lg shadow-md transition-colors duration-200 ${
               completed
-                ? "bg-indigo-600 hover:bg-indigo-700 text-white cursor-pointer"
+                ? "bg-sky-500 hover:bg-sky-600 text-white cursor-pointer"
                 : "bg-gray-300 text-gray-500 cursor-not-allowed"
             }`}
           >
@@ -47,8 +47,8 @@ const StickyFooter = () => {
               </span>
               <button
                 type="button"
-                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ${
-                  submited ? "bg-indigo-600" : "bg-gray-200"
+                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 ${
+                  submited ? "bg-sky-500" : "bg-gray-200"
                 }`}
                 onClick={() => setSubmited(!submited)}
                 role="switch"

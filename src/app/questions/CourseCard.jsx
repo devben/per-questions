@@ -17,7 +17,7 @@ export default function CourseCard({
   const good = score.correctAnswersCount === score.questionsCount;
   return (
     <div
-      className={`relative flex items-center space-x-3 rounded-lg border  px-3 py-3 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400 ${
+      className={`relative flex items-center space-x-3 rounded-lg border  px-3 py-3 shadow-sm focus-within:ring-2 focus-within:ring-sky-500 focus-within:ring-offset-2 hover:border-gray-400 ${
         cardVariants[
           complete ? (good ? "correct" : "wrong") : active ? "selected" : "none"
         ]
