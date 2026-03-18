@@ -48,7 +48,7 @@ const SelectCourse = () => {
           <div className="flex justify-center py-4 mb-6">
             <button
               onClick={setRandomCourse}
-              className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition-colors duration-200"
+              className="bg-sky-500 hover:bg-sky-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition-colors duration-200"
             >
               Seleccionar curso aleatorio
             </button>
@@ -112,7 +112,7 @@ const SelectCourse = () => {
         <div className="flex justify-center pb-1">
           <button
             onClick={clearCourse}
-            className="text-indigo-600 hover:text-indigo-800 underline font-medium transition-colors duration-200 cursor-pointer"
+            className="text-sky-500 hover:text-sky-700 underline font-medium transition-colors duration-200 cursor-pointer"
           >
             Seleccionar otro curso
           </button>

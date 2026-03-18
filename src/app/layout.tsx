@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "PER Test – Practica el examen Patrón de Embarcaciones de Recreo",
+  title: "Prepara tu PER – Practica el examen Patrón de Embarcaciones de Recreo",
   description:
     "Practica el examen PER con más de 600 preguntas de exámenes oficiales desde 2015 hasta 2024. Gratis, sin registro, desde el móvil.",
   keywords: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "licencia náutica",
   ],
   openGraph: {
-    title: "PER Test – Practica el examen Patrón de Embarcaciones de Recreo",
+    title: "Prepara tu PER – Practica el examen Patrón de Embarcaciones de Recreo",
     description:
       "Practica el examen PER con más de 600 preguntas de exámenes oficiales desde 2015 hasta 2024. Gratis, sin registro.",
     type: "website",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "PER Test – Practica el examen PER gratis",
+    title: "Prepara tu PER – Practica el examen PER gratis",
     description: "Más de 600 preguntas de exámenes PER oficiales. Sin registro, sin coste.",
   },
 };

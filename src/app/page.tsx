@@ -9,11 +9,11 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
               <span className="text-2xl">⚓</span>
-              <span className="font-bold text-gray-900 text-lg tracking-tight">PER Test</span>
+              <span className="font-bold text-gray-900 text-lg tracking-tight">Prepara tu PER</span>
             </div>
             <Link
               href="/quiz"
-              className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-5 rounded-lg shadow-md transition-colors duration-200 text-sm"
+              className="bg-sky-500 hover:bg-sky-600 text-white font-semibold py-2 px-5 rounded-lg shadow-md transition-colors duration-200 text-sm"
             >
               Practicar ahora →
             </Link>
@@ -22,26 +22,31 @@ export default function Home() {
       </nav>
 
       {/* ── Hero ── */}
-      <div className="relative min-h-screen flex items-center justify-center pt-16">
+      <div className="relative min-h-screen flex items-end pt-16 overflow-hidden">
+        {/* Background image – positioned to show the sky & boat in upper half */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url("./images/per.png")' }}
+          className="absolute inset-0 bg-cover bg-[center_30%] bg-no-repeat scale-105"
+          style={{ backgroundImage: 'url("./images/sailboat.jpg")' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/75 via-slate-900/55 to-slate-900/85" />
+        {/* Gradient: keep sky clear at top, fade to solid for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-sky-900/20 via-sky-900/40 to-slate-900/95" />
 
-        <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto py-24">
-          <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm text-white border border-white/25 px-4 py-1.5 rounded-full text-sm font-medium mb-8">
+        {/* Badge near top */}
+        <div className="absolute top-24 sm:top-28 left-1/2 -translate-x-1/2 z-10">
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md text-white/90 border border-white/20 px-5 py-2 rounded-full text-sm font-medium shadow-lg">
             <span>⛵</span>
             <span>Patrón de Embarcaciones de Recreo</span>
           </div>
+        </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight tracking-tight">
+        <div className="relative z-10 w-full text-center px-4 sm:px-6 max-w-4xl mx-auto pb-24 pt-48 sm:pt-56">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white mb-6 leading-[1.1] tracking-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.4)]">
             Aprueba el examen PER
             <br />
-            <span className="text-indigo-400">a la primera</span>
+            <span className="bg-gradient-to-r from-sky-300 to-indigo-300 bg-clip-text text-transparent">a la primera</span>
           </h1>
 
-          <p className="text-lg sm:text-xl text-slate-200 mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl text-white/85 mb-10 max-w-2xl mx-auto leading-relaxed drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)]">
             Practica con más de 10 años de exámenes oficiales y llega al día de tu examen con total confianza.{" "}
             <span className="font-semibold text-white">Gratis, sin registro.</span>
           </p>
@@ -49,20 +54,20 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/quiz"
-              className="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-10 rounded-xl shadow-lg transition-all duration-200 text-lg hover:scale-105 active:scale-95"
+              className="w-full sm:w-auto bg-white text-sky-600 hover:bg-sky-50 font-bold py-4 px-10 rounded-xl shadow-xl transition-all duration-200 text-lg hover:scale-105 active:scale-95"
             >
               Empezar a practicar →
             </Link>
             <a
               href="#como-funciona"
-              className="w-full sm:w-auto bg-white/15 hover:bg-white/25 backdrop-blur-sm text-white border border-white/30 font-semibold py-4 px-10 rounded-xl transition-all duration-200 text-lg"
+              className="w-full sm:w-auto bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/25 font-semibold py-4 px-10 rounded-xl transition-all duration-200 text-lg"
             >
               Cómo funciona
             </a>
           </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-white/60">
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-white/50">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
@@ -70,7 +75,7 @@ export default function Home() {
       </div>
 
       {/* ── Stats bar ── */}
-      <div className="bg-indigo-600 text-white py-14">
+      <div className="bg-sky-500 text-white py-14">
         <div className="max-w-5xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
             { number: "10+", label: "Años de exámenes" },
@@ -80,7 +85,7 @@ export default function Home() {
           ].map(({ number, label }) => (
             <div key={label}>
               <div className="text-4xl sm:text-5xl font-extrabold">{number}</div>
-              <div className="text-indigo-200 text-sm sm:text-base mt-2 font-medium">{label}</div>
+              <div className="text-sky-100 text-sm sm:text-base mt-2 font-medium">{label}</div>
             </div>
           ))}
         </div>
@@ -102,7 +107,7 @@ export default function Home() {
               { emoji: "📱", title: "100% móvil", desc: "Diseñado para funcionar perfectamente en cualquier dispositivo. Practica desde el sofá o el metro." },
               { emoji: "🆓", title: "Completamente gratis", desc: "Sin registro, sin suscripción, sin anuncios intrusivos. Solo tú y los exámenes reales." },
             ].map(({ emoji, title, desc }) => (
-              <div key={title} className="bg-slate-50 rounded-2xl p-7 border border-slate-100 hover:shadow-md hover:border-indigo-100 transition-all duration-200 group">
+              <div key={title} className="bg-slate-50 rounded-2xl p-7 border border-slate-100 hover:shadow-md hover:border-sky-200 transition-all duration-200 group">
                 <div className="text-3xl mb-4 group-hover:scale-110 transition-transform duration-200 inline-block">{emoji}</div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
@@ -126,14 +131,14 @@ export default function Home() {
               { step: "3", title: "Revisa tus resultados", desc: "Comprueba qué has acertado, qué has fallado y cuál era la respuesta correcta." },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
-                <div className="w-16 h-16 bg-indigo-600 text-white text-2xl font-extrabold rounded-full flex items-center justify-center mx-auto mb-5 shadow-lg shadow-indigo-200">{step}</div>
+                <div className="w-16 h-16 bg-sky-500 text-white text-2xl font-extrabold rounded-full flex items-center justify-center mx-auto mb-5 shadow-lg shadow-sky-200">{step}</div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>
           <div className="text-center mt-12">
-            <Link href="/quiz" className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-10 rounded-xl shadow-md transition-all duration-200 text-lg hover:scale-105 active:scale-95">
+            <Link href="/quiz" className="inline-block bg-sky-500 hover:bg-sky-600 text-white font-bold py-4 px-10 rounded-xl shadow-md transition-all duration-200 text-lg hover:scale-105 active:scale-95">
               Empezar ahora →
             </Link>
           </div>
@@ -161,7 +166,7 @@ export default function Home() {
               { icon: "🗺️", topic: "Teoría de Navegación" },
               { icon: "📍", topic: "Carta de Navegación" },
             ].map(({ icon, topic }) => (
-              <div key={topic} className="flex items-center gap-3 bg-slate-50 hover:bg-indigo-50 rounded-xl px-4 py-3.5 border border-slate-100 hover:border-indigo-100 transition-colors duration-200 cursor-default">
+              <div key={topic} className="flex items-center gap-3 bg-slate-50 hover:bg-sky-50 rounded-xl px-4 py-3.5 border border-slate-100 hover:border-sky-200 transition-colors duration-200 cursor-default">
                 <span className="text-xl">{icon}</span>
                 <span className="text-sm font-medium text-gray-700">{topic}</span>
               </div>
@@ -171,14 +176,14 @@ export default function Home() {
       </div>
 
       {/* ── Final CTA ── */}
-      <div className="py-28 bg-gradient-to-br from-indigo-600 to-indigo-800">
+      <div className="py-28 bg-gradient-to-br from-sky-500 to-sky-700">
         <div className="max-w-3xl mx-auto text-center px-4">
           <div className="text-5xl mb-6">⚓</div>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">¿Listo para aprobar el PER?</h2>
-          <p className="text-indigo-200 text-lg mb-10 max-w-xl mx-auto">
+          <p className="text-sky-100 text-lg mb-10 max-w-xl mx-auto">
             Únete a los estudiantes que ya están practicando. Es gratis, no requiere registro y funciona en móvil.
           </p>
-          <Link href="/quiz" className="inline-block bg-white text-indigo-700 hover:bg-slate-50 font-bold py-4 px-14 rounded-xl shadow-xl transition-all duration-200 text-lg hover:scale-105 active:scale-95">
+          <Link href="/quiz" className="inline-block bg-white text-sky-600 hover:bg-sky-50 font-bold py-4 px-14 rounded-xl shadow-xl transition-all duration-200 text-lg hover:scale-105 active:scale-95">
             Empezar ahora →
           </Link>
         </div>
@@ -189,7 +194,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <span className="text-2xl">⚓</span>
-            <span className="font-bold text-white text-lg">PER Test</span>
+            <span className="font-bold text-white text-lg">Prepara tu PER</span>
           </div>
           <p className="text-sm max-w-md mx-auto">
             Práctica gratuita para el examen Patrón de Embarcaciones de Recreo con preguntas de exámenes oficiales anteriores.

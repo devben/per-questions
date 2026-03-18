@@ -23,7 +23,7 @@ const Progress = () => {
       <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
         {/* Progress bar fill */}
         <div
-          className="bg-indigo-600 h-full rounded-full transition-all duration-300 ease-out"
+          className="bg-sky-500 h-full rounded-full transition-all duration-300 ease-out"
           style={{ width: `${percent}%` }}
         />
       </div>
