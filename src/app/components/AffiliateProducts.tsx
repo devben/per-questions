@@ -2,7 +2,7 @@ import Image from "next/image";
 
 // TODO: Replace with your Amazon Associates affiliate tag once approved.
 // Sign-up instructions: see PR description.
-export const AFFILIATE_TAG = "YOUR-TAG-21";
+export const AFFILIATE_TAG = "perquiz-21";
 
 export const products = [
   {
