@@ -13,20 +13,20 @@ const Results = () => {
   if (!completed) return null;
   if (!submited) return null;
 
-  // Determine styling based on percentage (70% threshold)
+  // Determine styling based on percentage (75% threshold)
   const isGoodScore = percent >= 75;
   const containerClass = isGoodScore
-    ? "bg-green-50 bg-gradient-to-br from-green-50 to-green-100"
-    : "bg-red-50 bg-gradient-to-br from-red-100 to-red-200";
+    ? "bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900 dark:to-green-800"
+    : "bg-gradient-to-br from-red-100 to-red-200 dark:from-red-900 dark:to-red-800";
 
   const textClass = isGoodScore
-    ? "text-green-700 font-bold"
-    : "text-red-700 font-bold";
+    ? "text-green-700 dark:text-green-300 font-bold"
+    : "text-red-700 dark:text-red-300 font-bold";
 
   return (
     <div className={`rounded-lg px-4 py-3 ${containerClass}`}>
       <div className="flex items-center justify-between">
-        <span className="text-sm font-medium text-gray-700 pr-2">
+        <span className="text-sm font-medium text-gray-700 dark:text-gray-300 pr-2">
           Resultado:
         </span>
         <span className={`text-lg font-semibold ${textClass}`}>
@@ -36,7 +36,9 @@ const Results = () => {
       <div className="mt-1">
         <div
           className={`text-center text-xs ${
-            isGoodScore ? "text-green-600" : "text-red-600"
+            isGoodScore
+              ? "text-green-600 dark:text-green-400"
+              : "text-red-600 dark:text-red-400"
           }`}
         >
           {isGoodScore ? "¡Excelente trabajo!" : "Sigue practicando"}
