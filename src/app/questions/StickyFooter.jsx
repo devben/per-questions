@@ -12,12 +12,12 @@ const StickyFooter = () => {
 
   return (
     <div
-      className={`sticky bottom-0 bg-white border-t border-gray-200 shadow-lg p-4 mt-4 transform transition-transform duration-300 ease-in-out ${
+      className={`sticky bottom-0 bg-white dark:bg-slate-900 border-t border-gray-200 dark:border-gray-700 shadow-lg dark:shadow-slate-950 p-4 mt-4 transform transition-transform duration-300 ease-in-out ${
         questionsCount ? "translate-y-0" : "translate-y-full"
       }`}
     >
       <div className="max-w-4xl mx-auto">
-        {/* Grid layout with progress on left and toggle switch on right */}
+        {/* Progress bar */}
         <div className="py-2">
           <Progress />
         </div>
@@ -25,7 +25,7 @@ const StickyFooter = () => {
           <Results />
         </div>
 
-        {/* Submit button - only show if not already submitted */}
+        {/* Submit button */}
         <div className="py-2 flex justify-center">
           <button
             disabled={!completed}
@@ -33,7 +33,7 @@ const StickyFooter = () => {
             className={`font-semibold py-3 px-8 rounded-lg shadow-md transition-colors duration-200 ${
               completed
                 ? "bg-sky-500 hover:bg-sky-600 text-white cursor-pointer"
-                : "bg-gray-300 text-gray-500 cursor-not-allowed"
+                : "bg-gray-300 dark:bg-gray-700 text-gray-500 dark:text-gray-400 cursor-not-allowed"
             }`}
           >
             Enviar respuestas
@@ -42,13 +42,13 @@ const StickyFooter = () => {
         <div className="flex justify-center py-2">
           <div className="justify-self-start md:justify-self-end">
             <label className="flex items-center space-x-3">
-              <span className="text-sm font-medium text-gray-700">
+              <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                 Mostrar respuestas:
               </span>
               <button
                 type="button"
-                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 ${
-                  submited ? "bg-sky-500" : "bg-gray-200"
+                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 dark:focus:ring-offset-slate-900 ${
+                  submited ? "bg-sky-500" : "bg-gray-200 dark:bg-gray-700"
                 }`}
                 onClick={() => setSubmited(!submited)}
                 role="switch"

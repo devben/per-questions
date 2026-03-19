@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-slate-900">
       {/* ── Navigation ── */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100 shadow-sm">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm border-b border-gray-100 dark:border-gray-800 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
               <span className="text-2xl">⚓</span>
-              <span className="font-bold text-gray-900 text-lg tracking-tight">Prepara tu PER</span>
+              <span className="font-bold text-gray-900 dark:text-white text-lg tracking-tight">Prepara tu PER</span>
             </div>
             <Link
               href="/quiz"
@@ -75,7 +75,7 @@ export default function Home() {
       </div>
 
       {/* ── Stats bar ── */}
-      <div className="bg-sky-500 text-white py-14">
+      <div className="bg-sky-600 dark:bg-sky-800 text-white py-14">
         <div className="max-w-5xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
             { number: "10+", label: "Años de exámenes" },
@@ -85,18 +85,18 @@ export default function Home() {
           ].map(({ number, label }) => (
             <div key={label}>
               <div className="text-4xl sm:text-5xl font-extrabold">{number}</div>
-              <div className="text-sky-100 text-sm sm:text-base mt-2 font-medium">{label}</div>
+              <div className="text-sky-100 dark:text-sky-200 text-sm sm:text-base mt-2 font-medium">{label}</div>
             </div>
           ))}
         </div>
       </div>
 
       {/* ── Features ── */}
-      <div className="py-24 bg-white">
+      <div className="py-24 bg-white dark:bg-slate-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">La mejor forma de preparar el PER</h2>
-            <p className="text-gray-500 mt-3 text-lg">Todo lo que necesitas para aprobar, sin complicaciones</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">La mejor forma de preparar el PER</h2>
+            <p className="text-gray-500 dark:text-gray-400 mt-3 text-lg">Todo lo que necesitas para aprobar, sin complicaciones</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -107,10 +107,10 @@ export default function Home() {
               { emoji: "📱", title: "100% móvil", desc: "Diseñado para funcionar perfectamente en cualquier dispositivo. Practica desde el sofá o el metro." },
               { emoji: "🆓", title: "Completamente gratis", desc: "Sin registro, sin suscripción, sin anuncios intrusivos. Solo tú y los exámenes reales." },
             ].map(({ emoji, title, desc }) => (
-              <div key={title} className="bg-slate-50 rounded-2xl p-7 border border-slate-100 hover:shadow-md hover:border-sky-200 transition-all duration-200 group">
+              <div key={title} className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-7 border border-slate-100 dark:border-slate-700 hover:shadow-md hover:border-sky-200 dark:hover:border-sky-600 transition-all duration-200 group">
                 <div className="text-3xl mb-4 group-hover:scale-110 transition-transform duration-200 inline-block">{emoji}</div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{title}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{title}</h3>
+                <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>
@@ -118,11 +118,11 @@ export default function Home() {
       </div>
 
       {/* ── How it works ── */}
-      <div id="como-funciona" className="py-24 bg-slate-50">
+      <div id="como-funciona" className="py-24 bg-slate-50 dark:bg-slate-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">¿Cómo funciona?</h2>
-            <p className="text-gray-500 mt-3 text-lg">Empieza a practicar en menos de 10 segundos</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">¿Cómo funciona?</h2>
+            <p className="text-gray-500 dark:text-gray-400 mt-3 text-lg">Empieza a practicar en menos de 10 segundos</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
@@ -131,9 +131,9 @@ export default function Home() {
               { step: "3", title: "Revisa tus resultados", desc: "Comprueba qué has acertado, qué has fallado y cuál era la respuesta correcta." },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
-                <div className="w-16 h-16 bg-sky-500 text-white text-2xl font-extrabold rounded-full flex items-center justify-center mx-auto mb-5 shadow-lg shadow-sky-200">{step}</div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{title}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+                <div className="w-16 h-16 bg-sky-500 dark:bg-sky-600 text-white text-2xl font-extrabold rounded-full flex items-center justify-center mx-auto mb-5 shadow-lg shadow-sky-200 dark:shadow-sky-900">{step}</div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{title}</h3>
+                <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>
@@ -146,11 +146,11 @@ export default function Home() {
       </div>
 
       {/* ── Exam Topics ── */}
-      <div className="py-24 bg-white">
+      <div className="py-24 bg-white dark:bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Temas del examen PER</h2>
-            <p className="text-gray-500 mt-3 text-lg">El examen consta de 45 preguntas repartidas entre 11 temas</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">Temas del examen PER</h2>
+            <p className="text-gray-500 dark:text-gray-400 mt-3 text-lg">El examen consta de 45 preguntas repartidas entre 11 temas</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {[
@@ -166,9 +166,9 @@ export default function Home() {
               { icon: "🗺️", topic: "Teoría de Navegación" },
               { icon: "📍", topic: "Carta de Navegación" },
             ].map(({ icon, topic }) => (
-              <div key={topic} className="flex items-center gap-3 bg-slate-50 hover:bg-sky-50 rounded-xl px-4 py-3.5 border border-slate-100 hover:border-sky-200 transition-colors duration-200 cursor-default">
+              <div key={topic} className="flex items-center gap-3 bg-slate-50 dark:bg-slate-800 hover:bg-sky-50 dark:hover:bg-sky-900/30 rounded-xl px-4 py-3.5 border border-slate-100 dark:border-slate-700 hover:border-sky-200 dark:hover:border-sky-700 transition-colors duration-200 cursor-default">
                 <span className="text-xl">{icon}</span>
-                <span className="text-sm font-medium text-gray-700">{topic}</span>
+                <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{topic}</span>
               </div>
             ))}
           </div>
@@ -176,7 +176,7 @@ export default function Home() {
       </div>
 
       {/* ── Final CTA ── */}
-      <div className="py-28 bg-gradient-to-br from-sky-500 to-sky-700">
+      <div className="py-28 bg-gradient-to-br from-sky-500 to-sky-700 dark:from-sky-700 dark:to-sky-900">
         <div className="max-w-3xl mx-auto text-center px-4">
           <div className="text-5xl mb-6">⚓</div>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">¿Listo para aprobar el PER?</h2>
@@ -190,7 +190,7 @@ export default function Home() {
       </div>
 
       {/* ── Footer ── */}
-      <footer className="bg-slate-900 text-slate-400 py-12">
+      <footer className="bg-slate-900 dark:bg-black text-slate-400 py-12">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <span className="text-2xl">⚓</span>
@@ -199,7 +199,7 @@ export default function Home() {
           <p className="text-sm max-w-md mx-auto">
             Práctica gratuita para el examen Patrón de Embarcaciones de Recreo con preguntas de exámenes oficiales anteriores.
           </p>
-          <p className="text-xs mt-6 text-slate-600">
+          <p className="text-xs mt-6 text-slate-600 dark:text-slate-500">
             Este sitio no está afiliado con la Dirección General de la Marina Mercante ni con ningún organismo oficial.
           </p>
         </div>
