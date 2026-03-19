@@ -8,11 +8,6 @@ const websiteSchema = {
   description:
     "Practica el examen PER con más de 600 preguntas de exámenes oficiales desde 2015 hasta 2024. Gratis, sin registro.",
   inLanguage: "es",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: `${SITE_URL}/quiz`,
-    "query-input": "required name=search_term_string",
-  },
 };
 
 const faqSchema = {
