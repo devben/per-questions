@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AffiliateProducts from "./components/AffiliateProducts";
 
 export default function Home() {
   return (
@@ -172,6 +173,24 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </div>
+
+      {/* ── Affiliate Products ── */}
+      <div className="py-24 bg-amber-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-xs font-semibold mb-4">
+              🛒 Recursos recomendados
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+              Todo lo que necesitas a bordo
+            </h2>
+            <p className="text-gray-500 mt-3 text-lg">
+              Una vez que apruebes el PER, estarás listo para zarpar. Aquí tienes lo esencial.
+            </p>
+          </div>
+          <AffiliateProducts />
         </div>
       </div>
 

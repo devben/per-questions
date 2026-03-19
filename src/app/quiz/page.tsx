@@ -2,6 +2,7 @@ import Link from "next/link";
 import Questions from "../questions/Questions";
 import SelectCourse from "../questions/SelectCourse";
 import StickyFooter from "../questions/StickyFooter";
+import AffiliateQuizBanner from "../components/AffiliateQuizBanner";
 
 export default function QuizPage() {
   return (
@@ -28,6 +29,7 @@ export default function QuizPage() {
       <div className="min-h-screen bg-white dark:bg-slate-900 p-8 pb-20 gap-16 sm:p-20 sm:pt-12">
         <SelectCourse />
         <Questions />
+        <AffiliateQuizBanner />
       </div>
       <StickyFooter />
     </>
