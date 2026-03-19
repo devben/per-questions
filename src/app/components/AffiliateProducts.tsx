@@ -15,39 +15,30 @@ export const products = [
     badge: "Más vendido",
   },
   {
-    title: "Radio VHF Icom IC-M25",
+    title: "Laborda PER Exam Kit",
     description:
-      "Radio VHF portátil homologada. Imprescindible a bordo y obligatoria por la normativa de seguridad marítima.",
-    price: "~€170",
-    asin: "B089KRWYBC",
-    image: "https://m.media-amazon.com/images/I/31itjgSeBpL._AC_.jpg",
+      "Kit completo para el examen PER: transportador náutico, 3 cartas náuticas, compás, regla y lápiz 2HB. Todo lo que necesitas el día del examen.",
+    price: "~€26",
+    asin: "B098THC3VY",
+    image: "https://m.media-amazon.com/images/I/41ugt-FGbYL._AC_.jpg",
     badge: undefined,
   },
   {
-    title: "Chaleco Helly Hansen Rider",
+    title: "Libro de Ejercicios de Carta del PER",
     description:
-      "Chaleco de ayuda a la flotabilidad certificado. Cómodo y ligero para uso diario en embarcaciones de recreo.",
-    price: "~€59",
-    asin: "B00322Q4EO",
-    image: "https://m.media-amazon.com/images/I/41xrfJgjwzL._AC_.jpg",
+      "Ejercicios prácticos de carta náutica del mismo autor que el manual PER. Imprescindible para dominar el tema de navegación.",
+    price: "~€18",
+    asin: "8461725603",
+    image: "https://m.media-amazon.com/images/I/41zBR7PAxqL.jpg",
     badge: undefined,
   },
   {
-    title: "Prismáticos Bushnell 7x50",
+    title: "Transportador Náutico Laborda",
     description:
-      "Prismáticos náuticos con brújula integrada. El estándar 7×50 es imprescindible para la navegación costera.",
-    price: "~€238",
-    asin: "B0000A0ADQ",
-    image: "https://m.media-amazon.com/images/I/41nU++SKnoL._AC_.jpg",
-    badge: undefined,
-  },
-  {
-    title: "Brújula Náutica",
-    description:
-      "Brújula de montaje resistente al agua para embarcaciones. Navegación fiable cuando el GPS falla.",
-    price: "~€30",
-    asin: "B09TKG9T18",
-    image: "https://m.media-amazon.com/images/I/41eWr6Ar7hL._AC_.jpg",
+      "Transportador cuadrado náutico 150×150 mm fabricado en España. El instrumento de referencia para los exámenes PER.",
+    price: "~€15",
+    asin: "B09QCZ87KL",
+    image: "https://m.media-amazon.com/images/I/61kCcgDB78L._AC_.jpg",
     badge: undefined,
   },
 ];
@@ -56,8 +47,8 @@ type Product = (typeof products)[number];
 
 interface AffiliateProductsProps {
   items?: Product[];
-  /** Number of columns on desktop. Defaults to auto (all 5 products). */
-  columns?: 3 | 5;
+  /** Number of columns on desktop. Defaults to auto (all 4 products). */
+  columns?: 3 | 4;
 }
 
 export default function AffiliateProducts({
@@ -67,7 +58,7 @@ export default function AffiliateProducts({
   const gridClass =
     columns === 3
       ? "grid-cols-1 sm:grid-cols-3"
-      : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5";
+      : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4";
 
   return (
     <div>
