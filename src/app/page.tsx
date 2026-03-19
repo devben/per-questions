@@ -249,9 +249,13 @@ export default function Home() {
           <p className="text-sm max-w-md mx-auto">
             Práctica gratuita para el examen Patrón de Embarcaciones de Recreo con preguntas de exámenes oficiales anteriores.
           </p>
-          <p className="text-xs mt-6 text-slate-600 dark:text-slate-500">
-            Este sitio no está afiliado con la Dirección General de la Marina Mercante ni con ningún organismo oficial.
-          </p>
+          <div className="flex items-center justify-center gap-4 mt-6 text-xs text-slate-600 dark:text-slate-500">
+            <Link href="/privacidad" className="hover:text-slate-400 transition-colors">
+              Política de Privacidad
+            </Link>
+            <span>·</span>
+            <span>Este sitio no está afiliado con la Dirección General de la Marina Mercante.</span>
+          </div>
         </FadeIn>
       </footer>
     </div>

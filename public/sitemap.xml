@@ -12,4 +12,10 @@
     <priority>0.8</priority>
     <lastmod>2026-03-19</lastmod>
   </url>
+  <url>
+    <loc>https://devben.github.io/per-questions/privacidad</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <lastmod>2026-03-19</lastmod>
+  </url>
 </urlset>

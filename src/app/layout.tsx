@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import GoogleAdSense from "./components/GoogleAdSense";
 import SchemaOrg from "./components/SchemaOrg";
 import "./globals.css";
 
@@ -51,6 +52,9 @@ export const metadata: Metadata = {
     title: "Prepara tu PER – Practica el examen PER gratis",
     description: "Más de 600 preguntas de exámenes PER oficiales. Sin registro, sin coste.",
   },
+  other: {
+    "google-adsense-account": "ca-pub-2356778881618278",
+  },
 };
 
 export default function RootLayout({
@@ -62,6 +66,7 @@ export default function RootLayout({
     <html lang="es">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <GoogleAnalytics />
+        <GoogleAdSense />
         <SchemaOrg />
         {children}
       </body>
