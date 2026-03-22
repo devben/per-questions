@@ -2,43 +2,76 @@ import { create } from "zustand";
 import zustymiddleware from "zustymiddleware";
 import { isUndefined } from "lodash";
 import courses from "../data/courses";
+import TEMAS from "../data/temas";
+
+type Question = {
+  question: string;
+  answerLetter: string;
+  answer: number;
+  userAnswer: number;
+  questions: Array<string>;
+  options?: Array<string>;
+  image: string;
+};
 
 type QuestionsState = {
   course:
     | {
         year: string;
         section: string;
-        questions: Array<{
-          question: string;
-          answerLetter: string;
-          answer: number;
-          userAnswer: number;
-          questions: Array<string>;
-          image: string;
-        }>;
+        questions: Array<Question>;
       }
-    | undefined; // This holds the current course
-  answers: Array<{ year: string; section: string; questionIndex: number; answerValue: number, correctAnswer: number }>;
-  submited: boolean; // State to track if the quiz has been submitted
+    | undefined;
+  answers: Array<{
+    year: string;
+    section: string;
+    questionIndex: number;
+    answerValue: number;
+    correctAnswer: number;
+  }>;
+  submited: boolean;
   setCourse: (selectedCourse: {
     year: string;
     section: string;
-    questions: Array<{
-      question: string;
-      answerLetter: string;
-      answer: number;
-      userAnswer: number;
-      questions: Array<string>;
-      image: string;
-    }>;
-  }) => void; // Action to set the course
-  setRandomCourse: () => void; // Action to set a random course
-  setAnswers: (
-    answer: { questionIndex: number; answerIndex: number; year: string; section: string, correctAnswer: number }
-  ) => void; // Action to set the answer
-  setSubmited: (submitted: boolean) => void; // Action to set the submitted state
-  clearCourse: () => void; // Action to clear the course
+    questions: Array<Question>;
+  }) => void;
+  setRandomCourse: () => void;
+  setTemaCourse: (temaId: string) => void;
+  setRandomQuestions: (count: number) => void;
+  setAnswers: (answer: {
+    questionIndex: number;
+    answerIndex: number;
+    year: string;
+    section: string;
+    correctAnswer: number;
+  }) => void;
+  setSubmited: (submitted: boolean) => void;
+  clearCourse: () => void;
 };
+
+const normaliseQuestion = (q: any): Question => ({
+  question: q.question,
+  answerLetter: q.answerLetter,
+  answer: q.answer,
+  userAnswer: 0,
+  questions: q.options,
+  options: q.options,
+  image: q.image || "",
+});
+
+const shuffle = <T>(arr: T[]): T[] => {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+};
+
+const getAllQuestions = () =>
+  courses.flatMap((course: any) =>
+    course.sections.flatMap((section: any) => section.questions)
+  );
 
 const useQuestionsStore = create<QuestionsState>(
   zustymiddleware(
@@ -52,82 +85,81 @@ const useQuestionsStore = create<QuestionsState>(
       course: undefined,
       answers: [],
       submited: false,
-      setCourse: (selectedCourse: {
-        year: string;
-        section: string;
-        questions: Array<{
-          question: string;
-          answerLetter: string;
-          answer: number;
-          userAnswer: number;
-          questions: Array<string>;
-          image: string;
-        }>;
-      }) => set(() => ({ course: selectedCourse })),
-      
+
+      setCourse: (selectedCourse) =>
+        set(() => ({ course: selectedCourse, submited: false })),
+
       setRandomCourse: () => {
-        // Get all available course sections
-        const allSections = courses.flatMap(course => 
-          course.sections.map(section => ({
+        const allSections = courses.flatMap((course: any) =>
+          course.sections.map((section: any) => ({
             year: course.year,
             section: section.section,
             questions: section.questions,
           }))
         );
-        
-        // Pick a random section
-        const randomIndex = Math.floor(Math.random() * courses.length);
-        const randomCourse = allSections[randomIndex];
-        
-        // Use the existing setCourse function with properly formatted questions
-        const setCourseFunction = useQuestionsStore.getState().setCourse;
-        setCourseFunction({
-          year: randomCourse.year,
-          section: randomCourse.section,
-          questions: randomCourse.questions.map(q => ({
-            question: q.question,
-            answerLetter: q.answerLetter,
-            answer: q.answer,
-            userAnswer: 0,
-            questions: q.options,
-            options: q.options,
-            image: "",
-          })),
+        const random = allSections[Math.floor(Math.random() * allSections.length)];
+        useQuestionsStore.getState().setCourse({
+          year: random.year,
+          section: random.section,
+          questions: random.questions.map(normaliseQuestion),
         });
       },
 
-      setAnswers: (answer: { answered: boolean; questionIndex: number; answerIndex: number; year: string; section: string; correctAnswer: number }) =>
+      setTemaCourse: (temaId: string) => {
+        const tema = TEMAS.find((t: any) => t.id === temaId);
+        if (!tema) return;
+        const [from, to] = tema.range;
+        const temaQuestions = courses.flatMap((course: any) =>
+          course.sections.flatMap((section: any) =>
+            section.questions.slice(from, to + 1)
+          )
+        );
+        useQuestionsStore.getState().setCourse({
+          year: "Tema",
+          section: tema.name,
+          questions: shuffle(temaQuestions).map(normaliseQuestion),
+        });
+      },
+
+      setRandomQuestions: (count: number) => {
+        const selected = shuffle(getAllQuestions()).slice(0, count);
+        useQuestionsStore.getState().setCourse({
+          year: "Aleatorio",
+          section: `${count} preguntas`,
+          questions: selected.map(normaliseQuestion),
+        });
+      },
+
+      setAnswers: (answer) =>
         set((state: QuestionsState) => {
           const { questionIndex, answerIndex, year, section, correctAnswer } = answer;
           if (!state.answers || isUndefined(questionIndex)) return state;
-
           let updatedAnswers = state.answers;
-          
           const arrIndex = updatedAnswers.findIndex(
-            p => p.questionIndex == questionIndex && p.year == year && p.section == section
+            p =>
+              p.questionIndex == questionIndex &&
+              p.year == year &&
+              p.section == section
           );
-          const newAnswer = {
-            year: year,
-            section: section,
-            questionIndex: questionIndex,
-            answerValue: answerIndex,
-            correctAnswer: correctAnswer
-          }
+          const newAnswer = { year, section, questionIndex, answerValue: answerIndex, correctAnswer };
           if (arrIndex === -1) {
             updatedAnswers.push(newAnswer);
+          } else {
+            updatedAnswers = updatedAnswers.map(a =>
+              a.questionIndex !== newAnswer.questionIndex ||
+              a.year !== newAnswer.year ||
+              a.section !== newAnswer.section
+                ? a
+                : newAnswer
+            );
           }
-          if (arrIndex !== -1) {
-            updatedAnswers = updatedAnswers.map(a=> (a.questionIndex !== newAnswer.questionIndex || a.year !== newAnswer.year || a.section !== newAnswer.section) ? a : newAnswer)
-          }
-          return {
-            answers: updatedAnswers,
-          };
+          return { answers: updatedAnswers };
         }),
-  
+
       setSubmited: (submitted: boolean) => set(() => ({ submited: submitted })),
-      clearCourse: () => set(() => ({ course: undefined,
-        answers: []
-       })),
+
+      clearCourse: () =>
+        set(() => ({ course: undefined, answers: [], submited: false })),
     })
   )
 );
@@ -138,7 +170,7 @@ declare global {
   }
 }
 if (typeof window !== "undefined") {
-    window.store = useQuestionsStore;
+  window.store = useQuestionsStore;
 }
 
 export { useQuestionsStore };
