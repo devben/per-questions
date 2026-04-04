@@ -61,7 +61,7 @@ const data2018_3 = [
       "De cinco a seis veces la eslora del barco",
       "De tres a cuatro veces el fondo",
     ],
-    answerLetter: "D",
+    answerLetter: "C",
     answer: 2,
   },
   {
